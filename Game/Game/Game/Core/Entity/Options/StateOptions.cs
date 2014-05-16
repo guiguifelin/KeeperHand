@@ -32,7 +32,7 @@ namespace Game
             FR = false;
             EnabledChangeLangKeyset = false;
             EnabledCustomKeys = false;
-            SaveStateOptions(this);
+            SaveStateOptions();
         }
 
         // Get.
@@ -107,15 +107,21 @@ namespace Game
         {
             return Data.Deserialization(state, "StateOptions");
         }
-        public void SaveStateOptions(StateOptions options)
+        public void SaveStateOptions()
         {
             Data.Serialization(this, "StateOptions");
         }
-        public void Update()
+        public void SaveHotkeys(Game1 game)
+        {
+            Data.Serialization(game.MAIN.HOTKEYS, "Hotkeys");
+        }
+
+        public void Update(Game1 game)
         {
             if (EnabledSave != false)
             {
-                SaveStateOptions(this);
+                SaveHotkeys(game);
+                SaveStateOptions();
                 EnabledSave = false;
             }
         }

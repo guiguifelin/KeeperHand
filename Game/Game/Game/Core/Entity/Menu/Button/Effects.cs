@@ -108,13 +108,13 @@ namespace Game
                     AbstractStateGame.CurrentGameState = AbstractStateGame.GameState.Survival;
                     break;
                 case "AZERTY":
-                    game.MAIN.SURVIVAL.KEEPER.HOTKEYS = new Hotkeys(Keys.Enter, Keys.A, Keys.Z, Keys.E, Keys.R, Keys.Q, Keys.S, Keys.D, Keys.F, Keys.W, Keys.X, Keys.C, Keys.V);
+                    game.MAIN.HOTKEYS = new Hotkeys(Keys.Enter, Keys.A, Keys.Z, Keys.E, Keys.R, Keys.Q, Keys.S, Keys.D, Keys.F, Keys.W, Keys.X, Keys.C, Keys.V);
                     game.MAIN.OPTIONS.STATES.ENABLEDQW = !game.MAIN.OPTIONS.STATES.ENABLEDQW;
                     game.MAIN.OPTIONS.STATES.ENABLEDAZ = !game.MAIN.OPTIONS.STATES.ENABLEDAZ;
                     game.MAIN.OPTIONS.STATES.ENABLEDSAVE = true;
                     break;
                 case "QWERTY":
-                    game.MAIN.SURVIVAL.KEEPER.HOTKEYS = new Hotkeys(Keys.Enter, Keys.Q, Keys.W, Keys.E, Keys.R, Keys.A, Keys.S, Keys.D, Keys.F, Keys.Z, Keys.X, Keys.C, Keys.V);
+                    game.MAIN.HOTKEYS = new Hotkeys(Keys.Enter, Keys.Q, Keys.W, Keys.E, Keys.R, Keys.A, Keys.S, Keys.D, Keys.F, Keys.Z, Keys.X, Keys.C, Keys.V);
                     game.MAIN.OPTIONS.STATES.ENABLEDQW = !game.MAIN.OPTIONS.STATES.ENABLEDQW;
                     game.MAIN.OPTIONS.STATES.ENABLEDAZ = !game.MAIN.OPTIONS.STATES.ENABLEDAZ;
                     game.MAIN.OPTIONS.STATES.ENABLEDSAVE = true;
@@ -156,7 +156,8 @@ namespace Game
                     game.MAIN.KEYSET.Mob4 = true;
                     break;
                 case "BackToOptions":
-                    game.MAIN.SURVIVAL.KEEPER.HOTKEYS = new Hotkeys(true);
+                    Data.Serialization(game.MAIN.HOTKEYS, "Hotkeys");
+                    game.MAIN.HOTKEYS.SetHotkeysCustoms(true);
                     AbstractStateGame.CurrentGameState = AbstractStateGame.GameState.Options;
                     game.MAIN.OPTIONS.STATES.ENABLEDSAVE = true;
                     game.MAIN.OPTIONS.STATES.ENABLEDAZ = false;
@@ -166,13 +167,13 @@ namespace Game
                 case "SETCUSTOMKEYS":
                     if (!game.MAIN.OPTIONS.STATES.ENABLEDCUSTOMKEYS)
                     {
-                        game.MAIN.SURVIVAL.KEEPER.HOTKEYS = new Hotkeys(true);
+                        game.MAIN.HOTKEYS.SetHotkeysCustoms(true);
                         game.MAIN.OPTIONS.STATES.ENABLEDAZ = false;
                         game.MAIN.OPTIONS.STATES.ENABLEDQW = false;
                     }
                     else 
                     {
-                        game.MAIN.SURVIVAL.KEEPER.HOTKEYS = new Hotkeys(Keys.Enter, Keys.A, Keys.Z, Keys.E, Keys.R, Keys.Q, Keys.S, Keys.D, Keys.F, Keys.W, Keys.X, Keys.C, Keys.V);
+                        game.MAIN.HOTKEYS = new Hotkeys(Keys.Enter, Keys.A, Keys.Z, Keys.E, Keys.R, Keys.Q, Keys.S, Keys.D, Keys.F, Keys.W, Keys.X, Keys.C, Keys.V);
                         game.MAIN.OPTIONS.STATES.ENABLEDAZ = !game.MAIN.OPTIONS.STATES.ENABLEDAZ;
                     }
                     game.MAIN.OPTIONS.STATES.ENABLEDCUSTOMKEYS = !game.MAIN.OPTIONS.STATES.ENABLEDCUSTOMKEYS;

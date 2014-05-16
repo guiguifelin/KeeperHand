@@ -71,7 +71,7 @@ namespace Game
                 state.ENABLEDCHANGELANGOPTIONS = false;
             }
             option.Update(game, time, cursor, mouse);
-            state.Update();
+            state.Update(game);
         }
 
         public void Draw(SpriteBatch spriteBatch)

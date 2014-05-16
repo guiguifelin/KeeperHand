@@ -38,70 +38,6 @@ namespace Game
             this.mob3 = mob3;
             this.mob4 = mob4;
         }
-        public Hotkeys(bool custom)
-        {
-            if (c_trap1 == null)
-            {
-                c_trap1 = Keys.A;
-            }
-            if (c_trap2 == null)
-            {
-                c_trap2 = Keys.Z;
-            }
-            if (c_trap3 == null)
-            {
-                c_trap3 = Keys.E;
-            }
-            if (c_trap4 == null)
-            {
-                c_trap4 = Keys.R;
-            }
-            if (c_spell1 == null)
-            {
-                c_spell1 = Keys.Q;
-            }
-            if (c_spell2 == null)
-            {
-                c_spell2 = Keys.S;
-            }
-            if (c_spell3 == null)
-            {
-                c_spell3 = Keys.D;
-            }
-            if (c_spell4 == null)
-            {
-                c_spell4 = Keys.F;
-            }
-            if (c_mob1 == null)
-            {
-                c_mob1 = Keys.W;
-            }
-            if (c_mob2 == null)
-            {
-                c_mob2 = Keys.X;
-            }
-            if (c_mob3 == null)
-            {
-                c_mob3 = Keys.C;
-            }
-            if (c_mob4 == null)
-            {
-                c_mob4 = Keys.V;
-            }
-            this.pause = Keys.Enter;
-            this.trap1 = c_trap1;
-            this.trap2 = c_trap2;
-            this.trap3 = c_trap3;
-            this.trap4 = c_trap4;
-            this.spell1 = c_spell1;
-            this.spell2 = c_spell2;
-            this.spell3 = c_spell3;
-            this.spell4 = c_spell4;
-            this.mob1 = c_mob1;
-            this.mob2 = c_mob2;
-            this.mob3 = c_mob3;
-            this.mob4 = c_mob4;
-        }
 
         // Gets.
         #region Gets
@@ -176,60 +112,96 @@ namespace Game
         public void SetTrap1(Keys key)
         {
             c_trap1 = key;
+            Console.WriteLine("Trap 1 : {0}", c_trap1.ToString());
         }
         public void SetTrap2(Keys key)
         {
             c_trap2 = key;
+            Console.WriteLine("Trap 2 : {0}", c_trap2.ToString());
         }
         public void SetTrap3(Keys key)
         {
             c_trap3 = key;
+            Console.WriteLine("Trap 3 : {0}", c_trap3.ToString());
         }
         public void SetTrap4(Keys key)
         {
             c_trap4 = key;
+            Console.WriteLine("Trap 4 : {0}", c_trap4.ToString());
         }
         public void SetSpell1(Keys key)
         {
             c_spell1 = key;
+            Console.WriteLine("Spell 1 : {0}", c_spell1.ToString());
         }
         public void SetSpell2(Keys key)
         {
             c_spell2 = key;
+            Console.WriteLine("Spell 2 : {0}", c_spell2.ToString());
         }
         public void SetSpell3(Keys key)
         {
             c_spell3 = key;
+            Console.WriteLine("Spell 3 : {0}", c_spell3.ToString());
         }
         public void SetSpell4(Keys key)
         {
             c_spell4 = key;
+            Console.WriteLine("Spell 4 : {0}", c_spell4.ToString());
         }
         public void SetMob1(Keys key)
         {
             c_mob1 = key;
+            Console.WriteLine("Mob 1 : {0}", c_mob1.ToString());
         }
         public void SetMob2(Keys key)
         {
             c_mob2 = key;
+            Console.WriteLine("Mob 2 : {0}", c_mob2.ToString());
         }
         public void SetMob3(Keys key)
         {
             c_mob3 = key;
+            Console.WriteLine("Mob 3 : {0}", c_mob3.ToString());
         }
         public void SetMob4(Keys key)
         {
             c_mob4 = key;
+            Console.WriteLine("Mob 4 : {0}", c_mob4.ToString());
         }
         #endregion
+        public void SetHotkeysCustoms(bool custom)
+        {
+            this.pause = Keys.Enter;
+            this.trap1 = c_trap1;
+            this.trap2 = c_trap2;
+            this.trap3 = c_trap3;
+            this.trap4 = c_trap4;
+            this.spell1 = c_spell1;
+            this.spell2 = c_spell2;
+            this.spell3 = c_spell3;
+            this.spell4 = c_spell4;
+            this.mob1 = c_mob1;
+            this.mob2 = c_mob2;
+            this.mob3 = c_mob3;
+            this.mob4 = c_mob4;
+            Console.WriteLine("Trap 1 : {0}", c_trap1.ToString());
+            Console.WriteLine("Trap 2 : {0}", c_trap2.ToString());
+            Console.WriteLine("Trap 3 : {0}", c_trap3.ToString());
+            Console.WriteLine("Trap 4 : {0}", c_trap4.ToString());
+            Console.WriteLine("Spell 1 : {0}", c_spell1.ToString());
+            Console.WriteLine("Spell 2 : {0}", c_spell2.ToString());
+            Console.WriteLine("Spell 3 : {0}", c_spell3.ToString());
+            Console.WriteLine("Spell 4 : {0}", c_spell4.ToString());
+            Console.WriteLine("Mob 1 : {0}", c_mob1.ToString());
+            Console.WriteLine("Mob 2 : {0}", c_mob2.ToString());
+            Console.WriteLine("Mob 3 : {0}", c_mob3.ToString());
+            Console.WriteLine("Mob 4 : {0}", c_mob4.ToString());
+        }
 
         public Hotkeys LoadHotkeys()
         {
-            return Data.Deserialization(this, "SaveHotkeys");
-        }
-        public void SaveHotkeys()
-        {
-            Data.Serialization(this, "SaveHotkeys");
+            return Data.Deserialization(this, "Hotkeys");
         }
        
     }

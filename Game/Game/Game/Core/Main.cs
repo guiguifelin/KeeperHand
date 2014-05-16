@@ -19,6 +19,7 @@ namespace Game
         private Option options;
         private Sound soundManager;
         private VideoManager vm;
+        private Hotkeys hotkeys;
         private HotkeysSettings HSettings;
 
         /* Different options */
@@ -40,6 +41,15 @@ namespace Game
             menu = new Menu(Ressources.m_background, ref soundManager);
             /* Options */
             options = new Option(Ressources.m_background, ref soundManager);
+            /* Hotkeys */
+            try
+            {
+                this.hotkeys = Data.Deserialization(hotkeys, "Hotkeys");
+            }
+            catch
+            {
+                this.hotkeys = new Hotkeys(Keys.Enter, Keys.A, Keys.Z, Keys.E, Keys.R, Keys.Q, Keys.S, Keys.D, Keys.F, Keys.W, Keys.X, Keys.C, Keys.V);
+            }
             HSettings = new HotkeysSettings(Ressources.m_background, ref soundManager);
             /* Initialize */
             survive = new Survival(this.cursor);
@@ -61,15 +71,15 @@ namespace Game
             /* Hotkeys */
             if (options.STATES.ENABLEDAZ)
             {
-                survive.KEEPER.HOTKEYS = new Hotkeys(Keys.Enter, Keys.A, Keys.Z, Keys.E, Keys.R, Keys.Q, Keys.S, Keys.D, Keys.F, Keys.W, Keys.X, Keys.C, Keys.V);
+                hotkeys = new Hotkeys(Keys.Enter, Keys.A, Keys.Z, Keys.E, Keys.R, Keys.Q, Keys.S, Keys.D, Keys.F, Keys.W, Keys.X, Keys.C, Keys.V);
             }
             else if (options.STATES.ENABLEDQW)
             {
-                survive.KEEPER.HOTKEYS = new Hotkeys(Keys.Enter, Keys.Q, Keys.W, Keys.E, Keys.R, Keys.A, Keys.S, Keys.D, Keys.F, Keys.Z, Keys.X, Keys.C, Keys.V);
+                hotkeys = new Hotkeys(Keys.Enter, Keys.Q, Keys.W, Keys.E, Keys.R, Keys.A, Keys.S, Keys.D, Keys.F, Keys.Z, Keys.X, Keys.C, Keys.V);
             }
             else if (options.STATES.ENABLEDCUSTOMKEYS)
             {
-                survive.KEEPER.HOTKEYS = new Hotkeys(true);
+                hotkeys.SetHotkeysCustoms(true);
             }
         }
 
@@ -90,6 +100,11 @@ namespace Game
         public HotkeysSettings KEYSET
         {
             get { return HSettings; }
+        }
+        public Hotkeys HOTKEYS
+        {
+            get { return hotkeys; }
+            set { hotkeys = value; }
         }
         #endregion
 

@@ -71,10 +71,6 @@ namespace Game
             UpdateMovement();
             ControledAI(keyboard);
             SlowMove(time);
-            if (keyboard.IsKeyDown(Keys.H))
-            {
-                MinusLife(4);
-            }
         }
 
         public void Draw(SpriteBatch spriteBatch)

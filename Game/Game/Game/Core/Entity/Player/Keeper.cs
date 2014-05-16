@@ -17,7 +17,6 @@ namespace Game
         private int money, maxMoney;
         private Cursor cursor;
         private HUD hud;
-        private Hotkeys hotkeys;
         private List<IA> IAs;
         private Rectangle fieldBox24, fieldBox50, fieldBox100;
         private Color[] textureData24, textureData50, textureData100;
@@ -58,17 +57,10 @@ namespace Game
             Ressources.f_50.GetData(textureData50);
             textureData100 = new Color[Ressources.f_100.Height * Ressources.f_100.Width];
             Ressources.f_100.GetData(textureData100);
-            try
-            {
-                this.hotkeys = hotkeys.LoadHotkeys();
-            }
-            catch
-            {
-                this.hotkeys = new Hotkeys(Keys.Enter, Keys.A, Keys.Z, Keys.E, Keys.R, Keys.Q, Keys.S, Keys.D, Keys.F, Keys.W, Keys.X, Keys.C, Keys.V);
-            }
         }
 
         // Get & Set.
+        #region Get & Set.
         public int MANA
         {
             get { return mana; }
@@ -114,11 +106,7 @@ namespace Game
             get { return textureData24; }
             set { textureData24 = value; }
         }
-        public Hotkeys HOTKEYS
-        {
-            get { return hotkeys; }
-            set { hotkeys = value; }
-        }
+        #endregion
 
         // Methods.
         private void MinusMana(int cost)
@@ -143,7 +131,6 @@ namespace Game
                 money = 0;
             }
         }
-
         private void AddMana(GameTime time)
         {
             currentTime += (float)time.ElapsedGameTime.TotalSeconds;
@@ -162,83 +149,83 @@ namespace Game
         }
 
         // Update & Draw.
-        public void Update(GameTime time, KeyboardState keyboard, MouseState mouse)
+        public void Update(Game1 game, GameTime time, KeyboardState keyboard, MouseState mouse)
         {
             AddMana(time);
             fieldBox24 = new Rectangle(cursor.Rect.Center.X - 24, cursor.Rect.Center.Y - 24, 24, 24);
             fieldBox50 = new Rectangle(cursor.Rect.Center.X - 50, cursor.Rect.Center.Y - 50, 50, 50);
             fieldBox100 = new Rectangle(cursor.Rect.Center.X - 100, cursor.Rect.Center.Y - 100, 100, 100);
-            if (Inputs.isKeyRelease(hotkeys.Pause))
+            if (Inputs.isKeyRelease(game.MAIN.HOTKEYS.Pause))
             {
                 function("PAUSE");
             }
-            if (Inputs.isKeyRelease(hotkeys.Trap1) && mana > 20)
+            if (Inputs.isKeyRelease(game.MAIN.HOTKEYS.Trap1) && mana > 20)
             {
                 MinusMana(20);
                 enabledTrap1 = true;
             }
             else if (Inputs.isLMBClick()) { if (enabledTrap1) { k_function(this, ref IAs, "TRAP1"); } enabledTrap1 = false; }
-            if (Inputs.isKeyRelease(hotkeys.Trap2) && mana > 30)
+            if (Inputs.isKeyRelease(game.MAIN.HOTKEYS.Trap2) && mana > 30)
             {
                 MinusMana(30);
                 enabledTrap2 = true;
             }
             else if (Inputs.isLMBClick()) { if (enabledTrap2) { k_function(this, ref IAs, "TRAP2"); } enabledTrap2 = false; }
-            if (Inputs.isKeyRelease(hotkeys.Trap3) && mana > 35) 
+            if (Inputs.isKeyRelease(game.MAIN.HOTKEYS.Trap3) && mana > 35) 
             {
                 MinusMana(35);
                 enabledTrap3 = true;
             }
             else if (Inputs.isLMBClick()) { if (enabledTrap3) { k_function(this, ref IAs, "TRAP3"); } enabledTrap3 = false; }
-            if (Inputs.isKeyRelease(hotkeys.Trap4) && mana > 55)
+            if (Inputs.isKeyRelease(game.MAIN.HOTKEYS.Trap4) && mana > 55)
             {
                 MinusMana(55);
                 enabledTrap4 = true;
             }
             else if (Inputs.isLMBClick()) { if (enabledTrap4) { k_function(this, ref IAs, "TRAP4"); } enabledTrap4 = false; }
-            if (Inputs.isKeyRelease(hotkeys.Spell1) && mana > 20)
+            if (Inputs.isKeyRelease(game.MAIN.HOTKEYS.Spell1) && mana > 20)
             {
                 MinusMana(20);
                 enabledSpell1 = true;
             }
             else if (Inputs.isLMBClick()) { if (enabledSpell1) { k_function(this, ref IAs, "SPELL1"); } enabledSpell1 = false; }
-            if (Inputs.isKeyRelease(hotkeys.Spell2) && mana > 30)
+            if (Inputs.isKeyRelease(game.MAIN.HOTKEYS.Spell2) && mana > 30)
             {
                 MinusMana(30);
                 enabledSpell2 = true;
             }
             else if (Inputs.isLMBClick()) { if (enabledSpell2) { k_function(this, ref IAs, "SPELL2"); } enabledSpell2 = false; }
-            if (Inputs.isKeyRelease(hotkeys.Spell3) && mana > 35)
+            if (Inputs.isKeyRelease(game.MAIN.HOTKEYS.Spell3) && mana > 35)
             {
                 MinusMana(35);
                 enabledSpell3 = true;
             }
             else if (Inputs.isLMBClick()) { if (enabledSpell3) { k_function(this, ref IAs, "SPELL3"); } enabledSpell3 = false; }
-            if (Inputs.isKeyRelease(hotkeys.Spell4) && mana > 55)
+            if (Inputs.isKeyRelease(game.MAIN.HOTKEYS.Spell4) && mana > 55)
             {
                 MinusMana(55);
                 enabledSpell4 = true;
             }
             else if (Inputs.isLMBClick()) { if (enabledSpell4) { k_function(this, ref IAs, "SPELL4"); } enabledSpell4 = false; }
-            if (Inputs.isKeyRelease(hotkeys.Mob1) && money > 50)
+            if (Inputs.isKeyRelease(game.MAIN.HOTKEYS.Mob1) && money > 50)
             {
                 MinusMoney(50);
                 enabledMob1 = true;
             }
             else if (Inputs.isLMBClick()) { if (enabledMob1) { k_function(this, ref IAs, "MOB1"); } enabledMob1 = false; }
-            if (Inputs.isKeyRelease(hotkeys.Mob2) && money > 100)
+            if (Inputs.isKeyRelease(game.MAIN.HOTKEYS.Mob2) && money > 100)
             {
                 MinusMoney(100);
                 enabledMob2 = true;
             }
             else if (Inputs.isLMBClick()) { if (enabledMob2) { function("MOB2"); } enabledMob2 = false; }
-            if (Inputs.isKeyRelease(hotkeys.Mob3) && money > 200)
+            if (Inputs.isKeyRelease(game.MAIN.HOTKEYS.Mob3) && money > 200)
             {
                 MinusMoney(200);
                 enabledMob3 = true;
             }
             else if (Inputs.isLMBClick()) { if (enabledMob3) { function("MOB3"); } enabledMob3 = false; }
-            if (Inputs.isKeyRelease(hotkeys.Mob4) && money > 400)
+            if (Inputs.isKeyRelease(game.MAIN.HOTKEYS.Mob4) && money > 400)
             {
                 MinusMoney(400);
                 enabledMob4 = true;

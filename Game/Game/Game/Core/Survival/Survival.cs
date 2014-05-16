@@ -126,7 +126,7 @@ namespace Game
                     }
                 }
                 hud.Update(cursor, mouse, gameTime);
-                keeper.Update(gameTime, keyboard, mouse);
+                keeper.Update(game, gameTime, keyboard, mouse);
             }
             else
             {

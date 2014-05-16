@@ -133,62 +133,62 @@ namespace Game
                 Keys prevKey = Inputs.keys[0];
                 if (trap1)
                 {
-                    game.MAIN.SURVIVAL.KEEPER.HOTKEYS.SetTrap1(Inputs.keys[0]);
+                    game.MAIN.HOTKEYS.SetTrap1(Inputs.keys[0]);
                     trap1 = false;
                 }
                 if (trap2)
                 {
-                    game.MAIN.SURVIVAL.KEEPER.HOTKEYS.SetTrap2(Inputs.keys[0]);
+                    game.MAIN.HOTKEYS.SetTrap2(Inputs.keys[0]);
                     trap2 = false;
                 }
                 if (trap3)
                 {
-                    game.MAIN.SURVIVAL.KEEPER.HOTKEYS.SetTrap3(Inputs.keys[0]);
+                    game.MAIN.HOTKEYS.SetTrap3(Inputs.keys[0]);
                     trap3 = false;
                 }
                 if (trap4)
                 {
-                    game.MAIN.SURVIVAL.KEEPER.HOTKEYS.SetTrap4(Inputs.keys[0]);
+                    game.MAIN.HOTKEYS.SetTrap4(Inputs.keys[0]);
                     trap4 = false;
                 }
                 if (spell1)
                 {
-                    game.MAIN.SURVIVAL.KEEPER.HOTKEYS.SetSpell1(Inputs.keys[0]);
+                    game.MAIN.HOTKEYS.SetSpell1(Inputs.keys[0]);
                     spell1 = false;
                 }
                 if (spell2)
                 {
-                    game.MAIN.SURVIVAL.KEEPER.HOTKEYS.SetSpell2(Inputs.keys[0]);
+                    game.MAIN.HOTKEYS.SetSpell2(Inputs.keys[0]);
                     spell2 = false;
                 }
                 if (spell3)
                 {
-                    game.MAIN.SURVIVAL.KEEPER.HOTKEYS.SetSpell3(Inputs.keys[0]);
+                    game.MAIN.HOTKEYS.SetSpell3(Inputs.keys[0]);
                     spell3 = false;
                 }
                 if (spell4)
                 {
-                    game.MAIN.SURVIVAL.KEEPER.HOTKEYS.SetSpell4(Inputs.keys[0]);
+                    game.MAIN.HOTKEYS.SetSpell4(Inputs.keys[0]);
                     spell4 = false;
                 }
                 if (mob1)
                 {
-                    game.MAIN.SURVIVAL.KEEPER.HOTKEYS.SetMob1(Inputs.keys[0]);
+                    game.MAIN.HOTKEYS.SetMob1(Inputs.keys[0]);
                     mob1 = false;
                 }
                 if (mob2)
                 {
-                    game.MAIN.SURVIVAL.KEEPER.HOTKEYS.SetMob2(Inputs.keys[0]);
+                    game.MAIN.HOTKEYS.SetMob2(Inputs.keys[0]);
                     mob2 = false;
                 }
                 if (mob3)
                 {
-                    game.MAIN.SURVIVAL.KEEPER.HOTKEYS.SetMob3(Inputs.keys[0]);
+                    game.MAIN.HOTKEYS.SetMob3(Inputs.keys[0]);
                     mob3 = false;
                 }
                 if (mob4)
                 {
-                    game.MAIN.SURVIVAL.KEEPER.HOTKEYS.SetMob4(Inputs.keys[0]);
+                    game.MAIN.HOTKEYS.SetMob4(Inputs.keys[0]);
                     mob4 = false;
                 }
             }
