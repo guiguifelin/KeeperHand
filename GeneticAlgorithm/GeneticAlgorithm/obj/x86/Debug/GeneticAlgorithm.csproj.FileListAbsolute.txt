@@ -1,0 +1,4 @@
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\GeneticAlgorithm\GeneticAlgorithm\bin\Debug\GeneticAlgorithm.exe
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\GeneticAlgorithm\GeneticAlgorithm\bin\Debug\GeneticAlgorithm.pdb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\GeneticAlgorithm\GeneticAlgorithm\obj\x86\Debug\GeneticAlgorithm.exe
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\GeneticAlgorithm\GeneticAlgorithm\obj\x86\Debug\GeneticAlgorithm.pdb

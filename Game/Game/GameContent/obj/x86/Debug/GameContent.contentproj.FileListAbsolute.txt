@@ -1,0 +1,1 @@
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\GameContent\obj\x86\Debug\GameContent.contentprojResolveAssemblyReference.cache

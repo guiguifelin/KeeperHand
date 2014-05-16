@@ -1,0 +1,48 @@
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TileSets\cursorTileSet.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TileSets\cursorTileSet2.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TileSets\tileSet1.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TileSets\tileSetFloorInt.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TileSets\tileSetInterieur.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TileSets\tileSetInterieurDetails.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\LevelEditor.exe
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\LevelEditor.pdb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\LevelEditor\LevelEditor\LevelEditor\obj\x86\Debug\LevelEditor.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\LevelEditor\LevelEditor\LevelEditor\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\LevelEditor\LevelEditor\LevelEditor\obj\x86\Debug\LevelEditor.exe
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\LevelEditor\LevelEditor\LevelEditor\obj\x86\Debug\LevelEditor.pdb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Fonts\MedievalFont1.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\Selection.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TextureData\HUD\textureHUD.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TextureData\Cursor\cursorTextureData1.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TextureData\Cursor\cursorTextureData2.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TextureData\HUD\boutonHUD.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TextureData\HUD\boutonPlanHUD.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TextureData\HUD\flecheDroiteHUD.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TextureData\HUD\flecheGaucheHUD.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TextureData\Cursor\textureDataCursor1.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TextureData\Cursor\textureDataCursor2.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Fonts\MedievalFont1.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\Selection.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TileSets\cursorTileSet2.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TileSets\tileSet1.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TileSets\tileSetFloorInt.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TileSets\tileSetInterieur.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TileSets\tileSetInterieurDetails.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TextureData\HUD\textureHUD.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TextureData\Cursor\cursorTextureData1.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TextureData\Cursor\cursorTextureData2.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TextureData\Cursor\textureDataCursor1.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TextureData\Cursor\textureDataCursor2.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TextureData\HUD\boutonHUD.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TextureData\HUD\boutonPlanHUD.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TextureData\HUD\flecheDroiteHUD.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TextureData\HUD\flecheGaucheHUD.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\Content\Textures\TileSets\cursorTileSet.xnb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\LevelEditor.exe
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\LevelEditor.pdb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\LevelEditor\LevelEditor\LevelEditor\obj\x86\Debug\LevelEditor.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\LevelEditor\LevelEditor\LevelEditor\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\LevelEditor\LevelEditor\LevelEditor\obj\x86\Debug\LevelEditor.exe
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\LevelEditor\LevelEditor\LevelEditor\obj\x86\Debug\LevelEditor.pdb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\SavingMap.dll
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\LevelEditor\LevelEditor\LevelEditor\bin\x86\Debug\SavingMap.pdb

@@ -1,0 +1,4 @@
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\BinarySerialization\BinarySerialization\bin\Debug\BinarySerialization.exe
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\BinarySerialization\BinarySerialization\bin\Debug\BinarySerialization.pdb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\BinarySerialization\BinarySerialization\obj\x86\Debug\BinarySerialization.exe
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\BinarySerialization\BinarySerialization\obj\x86\Debug\BinarySerialization.pdb

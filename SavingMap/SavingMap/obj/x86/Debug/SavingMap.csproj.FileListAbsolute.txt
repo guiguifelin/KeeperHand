@@ -1,0 +1,5 @@
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\SavingMap\SavingMap\bin\x86\Debug\SavingMap.dll
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\SavingMap\SavingMap\bin\x86\Debug\SavingMap.pdb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\SavingMap\SavingMap\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\SavingMap\SavingMap\obj\x86\Debug\SavingMap.dll
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\SavingMap\SavingMap\obj\x86\Debug\SavingMap.pdb

@@ -1,0 +1,6 @@
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\MLP - Multiple Outputs\MLP - Multiple Outputs\bin\Debug\MLP - Multiple Outputs.exe
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\MLP - Multiple Outputs\MLP - Multiple Outputs\bin\Debug\MLP - Multiple Outputs.pdb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\MLP - Multiple Outputs\MLP - Multiple Outputs\obj\x86\Debug\MLP___Multiple_Outputs.Properties.Resources.resources
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\MLP - Multiple Outputs\MLP - Multiple Outputs\obj\x86\Debug\MLP - Multiple Outputs.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\MLP - Multiple Outputs\MLP - Multiple Outputs\obj\x86\Debug\MLP - Multiple Outputs.exe
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\MLP - Multiple Outputs\MLP - Multiple Outputs\obj\x86\Debug\MLP - Multiple Outputs.pdb

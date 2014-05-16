@@ -1,0 +1,4 @@
+\\vmware-host\Shared Folders\Bureau\RandomName\RandomName\bin\Debug\RandomName.exe
+\\vmware-host\Shared Folders\Bureau\RandomName\RandomName\bin\Debug\RandomName.pdb
+\\vmware-host\Shared Folders\Bureau\RandomName\RandomName\obj\x86\Debug\RandomName.exe
+\\vmware-host\Shared Folders\Bureau\RandomName\RandomName\obj\x86\Debug\RandomName.pdb

@@ -1,0 +1,876 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Ressources\Tileset\tileset_background.png</Source>
+      <Name>Ressources\Tileset\tileset_background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Tileset\tileset_background.xnb</Output>
+      <Time>2014-02-11T08:24:56+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Tileset\tileset_middleground.png</Source>
+      <Name>Ressources\Tileset\tileset_middleground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Tileset\tileset_middleground.xnb</Output>
+      <Time>2014-02-11T08:24:56+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Tileset\cursorTileSet.png</Source>
+      <Name>Ressources\Tileset\cursorTileSet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Tileset\cursorTileSet.xnb</Output>
+      <Time>2014-02-09T03:16:36+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\textureDataCursor1.png</Source>
+      <Name>Ressources\TextureData\textureDataCursor1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\textureDataCursor1.xnb</Output>
+      <Time>2014-02-09T03:17:21+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\textureDataCursor2.png</Source>
+      <Name>Ressources\TextureData\textureDataCursor2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\textureDataCursor2.xnb</Output>
+      <Time>2014-02-09T03:17:21+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\textureDataCursor01.png</Source>
+      <Name>Ressources\TextureData\textureDataCursor01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\textureDataCursor01.xnb</Output>
+      <Time>2014-02-21T00:15:54+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\textureDataCursor02.png</Source>
+      <Name>Ressources\TextureData\textureDataCursor02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\textureDataCursor02.xnb</Output>
+      <Time>2014-02-21T00:17:04+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Font\font.spritefont</Source>
+      <Name>Ressources\Font\font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Font\font.xnb</Output>
+      <Time>2013-12-17T08:27:08+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\particles.png</Source>
+      <Name>Ressources\Textures\particles</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Textures\particles.xnb</Output>
+      <Time>2014-02-25T18:43:14+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Videos\Intro_Eubision.wmv</Source>
+      <Name>Ressources\Videos\Intro_Eubision</Name>
+      <Importer>WmvImporter</Importer>
+      <Processor>VideoProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Videos\Intro_Eubision.xnb</Output>
+      <Extra>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Videos\Intro_Eubision.wmv</Extra>
+      <Time>2014-02-27T14:05:56+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Tileset\tileset_ia1.png</Source>
+      <Name>Ressources\Tileset\tileset_ia1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Tileset\tileset_ia1.xnb</Output>
+      <Time>2014-03-08T22:34:57+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\ia\1\textureDataIa1_1.png</Source>
+      <Name>Ressources\TextureData\ia\1\textureDataIa1_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\ia\1\textureDataIa1_1.xnb</Output>
+      <Time>2014-03-08T22:50:03+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\ia\1\textureDataIa1_10.png</Source>
+      <Name>Ressources\TextureData\ia\1\textureDataIa1_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\ia\1\textureDataIa1_10.xnb</Output>
+      <Time>2014-03-08T22:55:38+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\ia\1\textureDataIa1_11.png</Source>
+      <Name>Ressources\TextureData\ia\1\textureDataIa1_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\ia\1\textureDataIa1_11.xnb</Output>
+      <Time>2014-03-08T22:56:08+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\ia\1\textureDataIa1_12.png</Source>
+      <Name>Ressources\TextureData\ia\1\textureDataIa1_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\ia\1\textureDataIa1_12.xnb</Output>
+      <Time>2014-03-08T22:56:35+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\ia\1\textureDataIa1_2.png</Source>
+      <Name>Ressources\TextureData\ia\1\textureDataIa1_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\ia\1\textureDataIa1_2.xnb</Output>
+      <Time>2014-03-08T22:50:41+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\ia\1\textureDataIa1_3.png</Source>
+      <Name>Ressources\TextureData\ia\1\textureDataIa1_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\ia\1\textureDataIa1_3.xnb</Output>
+      <Time>2014-03-08T22:51:21+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\ia\1\textureDataIa1_4.png</Source>
+      <Name>Ressources\TextureData\ia\1\textureDataIa1_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\ia\1\textureDataIa1_4.xnb</Output>
+      <Time>2014-03-08T22:51:57+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\ia\1\textureDataIa1_5.png</Source>
+      <Name>Ressources\TextureData\ia\1\textureDataIa1_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\ia\1\textureDataIa1_5.xnb</Output>
+      <Time>2014-03-08T22:52:37+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\ia\1\textureDataIa1_6.png</Source>
+      <Name>Ressources\TextureData\ia\1\textureDataIa1_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\ia\1\textureDataIa1_6.xnb</Output>
+      <Time>2014-03-08T22:53:12+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\ia\1\textureDataIa1_7.png</Source>
+      <Name>Ressources\TextureData\ia\1\textureDataIa1_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\ia\1\textureDataIa1_7.xnb</Output>
+      <Time>2014-03-08T22:53:56+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\ia\1\textureDataIa1_8.png</Source>
+      <Name>Ressources\TextureData\ia\1\textureDataIa1_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\ia\1\textureDataIa1_8.xnb</Output>
+      <Time>2014-03-08T22:54:21+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\ia\1\textureDataIa1_9.png</Source>
+      <Name>Ressources\TextureData\ia\1\textureDataIa1_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\ia\1\textureDataIa1_9.xnb</Output>
+      <Time>2014-03-08T22:55:08+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\HUD\Buttons\AttractiveNoise.png</Source>
+      <Name>Ressources\TextureData\HUD\Buttons\AttractiveNoise</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\HUD\Buttons\AttractiveNoise.xnb</Output>
+      <Time>2014-05-05T20:41:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\HUD\Buttons\Broken Glass.png</Source>
+      <Name>Ressources\TextureData\HUD\Buttons\Broken Glass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\HUD\Buttons\Broken Glass.xnb</Output>
+      <Time>2014-05-05T20:41:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\HUD\Buttons\Elf.png</Source>
+      <Name>Ressources\TextureData\HUD\Buttons\Elf</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\HUD\Buttons\Elf.xnb</Output>
+      <Time>2014-05-05T20:41:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\HUD\Buttons\Fire Wall.png</Source>
+      <Name>Ressources\TextureData\HUD\Buttons\Fire Wall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\HUD\Buttons\Fire Wall.xnb</Output>
+      <Time>2014-05-05T20:41:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\HUD\Buttons\Flame Thrower.png</Source>
+      <Name>Ressources\TextureData\HUD\Buttons\Flame Thrower</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\HUD\Buttons\Flame Thrower.xnb</Output>
+      <Time>2014-05-05T20:41:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\HUD\Buttons\Frozen.png</Source>
+      <Name>Ressources\TextureData\HUD\Buttons\Frozen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\HUD\Buttons\Frozen.xnb</Output>
+      <Time>2014-05-05T20:41:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\HUD\Buttons\Gobelin.png</Source>
+      <Name>Ressources\TextureData\HUD\Buttons\Gobelin</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\HUD\Buttons\Gobelin.xnb</Output>
+      <Time>2014-05-05T20:41:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\HUD\Buttons\Hot Step.png</Source>
+      <Name>Ressources\TextureData\HUD\Buttons\Hot Step</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\HUD\Buttons\Hot Step.xnb</Output>
+      <Time>2014-05-05T20:41:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\HUD\Buttons\Just1second.png</Source>
+      <Name>Ressources\TextureData\HUD\Buttons\Just1second</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\HUD\Buttons\Just1second.xnb</Output>
+      <Time>2014-05-05T20:41:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\HUD\Buttons\Lava River.png</Source>
+      <Name>Ressources\TextureData\HUD\Buttons\Lava River</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\HUD\Buttons\Lava River.xnb</Output>
+      <Time>2014-05-05T20:41:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\HUD\Buttons\LostMyGlasses.png</Source>
+      <Name>Ressources\TextureData\HUD\Buttons\LostMyGlasses</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\HUD\Buttons\LostMyGlasses.xnb</Output>
+      <Time>2014-05-05T20:41:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\HUD\Buttons\Marbles.png</Source>
+      <Name>Ressources\TextureData\HUD\Buttons\Marbles</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\HUD\Buttons\Marbles.xnb</Output>
+      <Time>2014-05-05T20:41:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\HUD\Buttons\Needle.png</Source>
+      <Name>Ressources\TextureData\HUD\Buttons\Needle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\HUD\Buttons\Needle.xnb</Output>
+      <Time>2014-05-05T20:41:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\HUD\Buttons\Spikes.png</Source>
+      <Name>Ressources\TextureData\HUD\Buttons\Spikes</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\HUD\Buttons\Spikes.xnb</Output>
+      <Time>2014-05-05T20:41:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\HUD\Buttons\Troll.png</Source>
+      <Name>Ressources\TextureData\HUD\Buttons\Troll</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\HUD\Buttons\Troll.xnb</Output>
+      <Time>2014-05-05T20:41:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\HUD\Buttons\UnexpectedStep.png</Source>
+      <Name>Ressources\TextureData\HUD\Buttons\UnexpectedStep</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\HUD\Buttons\UnexpectedStep.xnb</Output>
+      <Time>2014-05-05T20:41:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\HUD\Buttons\Wizard.png</Source>
+      <Name>Ressources\TextureData\HUD\Buttons\Wizard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\HUD\Buttons\Wizard.xnb</Output>
+      <Time>2014-05-05T20:41:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\HUD\bg_HUD.png</Source>
+      <Name>Ressources\TextureData\HUD\bg_HUD</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\HUD\bg_HUD.xnb</Output>
+      <Time>2014-05-05T21:13:27+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\HUD\Buttons\menu.png</Source>
+      <Name>Ressources\TextureData\HUD\Buttons\menu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\HUD\Buttons\menu.xnb</Output>
+      <Time>2014-05-05T21:43:21+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\Options\b_Options.png</Source>
+      <Name>Ressources\TextureData\Options\b_Options</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\Options\b_Options.xnb</Output>
+      <Time>2014-05-07T19:11:25+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\Options\b_OptionsV.png</Source>
+      <Name>Ressources\TextureData\Options\b_OptionsV</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\Options\b_OptionsV.xnb</Output>
+      <Time>2014-05-07T20:15:35+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Font\medieval.spritefont</Source>
+      <Name>Ressources\Font\medieval</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Font\medieval.xnb</Output>
+      <Time>2014-05-07T20:30:46+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\buttons\EN_Exit.png</Source>
+      <Name>Ressources\Textures\buttons\EN_Exit</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Textures\buttons\EN_Exit.xnb</Output>
+      <Time>2014-05-07T22:29:32+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\buttons\EN_Load.png</Source>
+      <Name>Ressources\Textures\buttons\EN_Load</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Textures\buttons\EN_Load.xnb</Output>
+      <Time>2014-05-07T22:29:32+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\buttons\EN_Multiplayer.png</Source>
+      <Name>Ressources\Textures\buttons\EN_Multiplayer</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Textures\buttons\EN_Multiplayer.xnb</Output>
+      <Time>2014-05-07T22:29:32+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\buttons\EN_New.png</Source>
+      <Name>Ressources\Textures\buttons\EN_New</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Textures\buttons\EN_New.xnb</Output>
+      <Time>2014-05-07T22:29:31+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\buttons\EN_Options.png</Source>
+      <Name>Ressources\Textures\buttons\EN_Options</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Textures\buttons\EN_Options.xnb</Output>
+      <Time>2014-05-07T22:29:31+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\buttons\EN_Survival.png</Source>
+      <Name>Ressources\Textures\buttons\EN_Survival</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Textures\buttons\EN_Survival.xnb</Output>
+      <Time>2014-05-07T22:29:31+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\buttons\FR_Exit.png</Source>
+      <Name>Ressources\Textures\buttons\FR_Exit</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Textures\buttons\FR_Exit.xnb</Output>
+      <Time>2014-05-07T22:29:31+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\buttons\FR_Load.png</Source>
+      <Name>Ressources\Textures\buttons\FR_Load</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Textures\buttons\FR_Load.xnb</Output>
+      <Time>2014-05-07T22:29:32+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\buttons\FR_Multiplayers.png</Source>
+      <Name>Ressources\Textures\buttons\FR_Multiplayers</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Textures\buttons\FR_Multiplayers.xnb</Output>
+      <Time>2014-05-07T22:29:32+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\buttons\FR_New.png</Source>
+      <Name>Ressources\Textures\buttons\FR_New</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Textures\buttons\FR_New.xnb</Output>
+      <Time>2014-05-07T22:29:32+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\buttons\FR_Options.png</Source>
+      <Name>Ressources\Textures\buttons\FR_Options</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Textures\buttons\FR_Options.xnb</Output>
+      <Time>2014-05-07T22:29:32+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\buttons\FR_Survival.png</Source>
+      <Name>Ressources\Textures\buttons\FR_Survival</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Textures\buttons\FR_Survival.xnb</Output>
+      <Time>2014-05-07T22:29:32+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Sounds\beep.wav</Source>
+      <Name>Ressources\Sounds\beep</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Sounds\beep.xnb</Output>
+      <Time>2014-05-08T00:18:23+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Videos\MATRIX.wmv</Source>
+      <Name>Ressources\Videos\MATRIX</Name>
+      <Importer>WmvImporter</Importer>
+      <Processor>VideoProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Videos\MATRIX.xnb</Output>
+      <Extra>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Videos\MATRIX.wmv</Extra>
+      <Time>2014-05-08T23:35:42+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\Background.png</Source>
+      <Name>Ressources\Textures\Background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Textures\Background.xnb</Output>
+      <Time>2014-05-08T23:44:24+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\KeeperStats\mana.png</Source>
+      <Name>Ressources\Textures\KeeperStats\mana</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Textures\KeeperStats\mana.xnb</Output>
+      <Time>2014-05-09T00:50:38+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\KeeperStats\money.png</Source>
+      <Name>Ressources\Textures\KeeperStats\money</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Textures\KeeperStats\money.xnb</Output>
+      <Time>2014-05-09T00:50:38+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\KeeperStats\cadre_mana_money.png</Source>
+      <Name>Ressources\Textures\KeeperStats\cadre_mana_money</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Textures\KeeperStats\cadre_mana_money.xnb</Output>
+      <Time>2014-05-09T01:20:22+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\KeeperStats\validate.png</Source>
+      <Name>Ressources\Textures\KeeperStats\validate</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Textures\KeeperStats\validate.xnb</Output>
+      <Time>2014-05-09T02:26:06+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\KeeperStats\Field.png</Source>
+      <Name>Ressources\Textures\KeeperStats\Field</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Textures\KeeperStats\Field.xnb</Output>
+      <Time>2014-05-09T03:39:36+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\KeeperStats\field100.png</Source>
+      <Name>Ressources\Textures\KeeperStats\field100</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Textures\KeeperStats\field100.xnb</Output>
+      <Time>2014-05-09T05:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\KeeperStats\field24.png</Source>
+      <Name>Ressources\Textures\KeeperStats\field24</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Textures\KeeperStats\field24.xnb</Output>
+      <Time>2014-05-09T05:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\KeeperStats\field50.png</Source>
+      <Name>Ressources\Textures\KeeperStats\field50</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Textures\KeeperStats\field50.xnb</Output>
+      <Time>2014-05-09T05:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Tileset\tileset_Chest.png</Source>
+      <Name>Ressources\Tileset\tileset_Chest</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Tileset\tileset_Chest.xnb</Output>
+      <Time>2014-05-09T06:25:27+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Tileset\tileset_MovingChest.png</Source>
+      <Name>Ressources\Tileset\tileset_MovingChest</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Tileset\tileset_MovingChest.xnb</Output>
+      <Time>2014-05-09T06:27:35+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\Items\textureData_Chest.png</Source>
+      <Name>Ressources\TextureData\Items\textureData_Chest</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\Items\textureData_Chest.xnb</Output>
+      <Time>2014-05-09T06:31:42+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\Items\textureData_MovingChest.png</Source>
+      <Name>Ressources\TextureData\Items\textureData_MovingChest</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\Items\textureData_MovingChest.xnb</Output>
+      <Time>2014-05-09T06:31:42+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\FailBG.png</Source>
+      <Name>Ressources\Textures\FailBG</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Textures\FailBG.xnb</Output>
+      <Time>2014-05-09T08:01:31+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\WinBG.png</Source>
+      <Name>Ressources\Textures\WinBG</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Textures\WinBG.xnb</Output>
+      <Time>2014-05-09T08:01:37+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\Pause.png</Source>
+      <Name>Ressources\Textures\Pause</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\Textures\Pause.xnb</Output>
+      <Time>2014-05-09T08:58:01+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\Map\Middle\Sprite1.png</Source>
+      <Name>Ressources\TextureData\Map\Middle\Sprite1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\Map\Middle\Sprite1.xnb</Output>
+      <Time>2014-05-15T13:23:05+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\Map\Middle\Sprite10.png</Source>
+      <Name>Ressources\TextureData\Map\Middle\Sprite10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\Map\Middle\Sprite10.xnb</Output>
+      <Time>2014-05-15T13:29:30+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\Map\Middle\Sprite11.png</Source>
+      <Name>Ressources\TextureData\Map\Middle\Sprite11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\Map\Middle\Sprite11.xnb</Output>
+      <Time>2014-05-15T13:30:37+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\Map\Middle\Sprite12.png</Source>
+      <Name>Ressources\TextureData\Map\Middle\Sprite12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\Map\Middle\Sprite12.xnb</Output>
+      <Time>2014-05-15T13:31:37+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\Map\Middle\Sprite13.png</Source>
+      <Name>Ressources\TextureData\Map\Middle\Sprite13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\Map\Middle\Sprite13.xnb</Output>
+      <Time>2014-05-15T13:31:49+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\Map\Middle\Sprite14.png</Source>
+      <Name>Ressources\TextureData\Map\Middle\Sprite14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\Map\Middle\Sprite14.xnb</Output>
+      <Time>2014-05-15T13:32:41+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\Map\Middle\Sprite15.png</Source>
+      <Name>Ressources\TextureData\Map\Middle\Sprite15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\Map\Middle\Sprite15.xnb</Output>
+      <Time>2014-05-15T13:33:02+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\Map\Middle\Sprite16.png</Source>
+      <Name>Ressources\TextureData\Map\Middle\Sprite16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\Map\Middle\Sprite16.xnb</Output>
+      <Time>2014-05-15T13:33:39+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\Map\Middle\Sprite17.png</Source>
+      <Name>Ressources\TextureData\Map\Middle\Sprite17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\Map\Middle\Sprite17.xnb</Output>
+      <Time>2014-05-15T13:34:13+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\Map\Middle\Sprite2.png</Source>
+      <Name>Ressources\TextureData\Map\Middle\Sprite2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\Map\Middle\Sprite2.xnb</Output>
+      <Time>2014-05-15T13:22:39+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\Map\Middle\Sprite3.png</Source>
+      <Name>Ressources\TextureData\Map\Middle\Sprite3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\Map\Middle\Sprite3.xnb</Output>
+      <Time>2014-05-15T13:21:53+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\Map\Middle\Sprite4.png</Source>
+      <Name>Ressources\TextureData\Map\Middle\Sprite4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\Map\Middle\Sprite4.xnb</Output>
+      <Time>2014-05-15T13:20:28+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\Map\Middle\Sprite5.png</Source>
+      <Name>Ressources\TextureData\Map\Middle\Sprite5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\Map\Middle\Sprite5.xnb</Output>
+      <Time>2014-05-15T13:19:05+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\Map\Middle\Sprite6.png</Source>
+      <Name>Ressources\TextureData\Map\Middle\Sprite6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\Map\Middle\Sprite6.xnb</Output>
+      <Time>2014-05-15T18:35:17+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\Map\Middle\Sprite7.png</Source>
+      <Name>Ressources\TextureData\Map\Middle\Sprite7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\Map\Middle\Sprite7.xnb</Output>
+      <Time>2014-05-15T13:26:23+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\Map\Middle\Sprite8.png</Source>
+      <Name>Ressources\TextureData\Map\Middle\Sprite8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\Map\Middle\Sprite8.xnb</Output>
+      <Time>2014-05-15T13:27:54+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TextureData\Map\Middle\Sprite9.png</Source>
+      <Name>Ressources\TextureData\Map\Middle\Sprite9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\Ressources\TextureData\Map\Middle\Sprite9.xnb</Output>
+      <Time>2014-05-15T13:29:03+02:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\GameContent\</RootDirectory>
+      <LoggerRootDirectory>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\</LoggerRootDirectory>
+      <IntermediateDirectory>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\GameContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\Game\Game\Game\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-11-11T13:37:17.5555515+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

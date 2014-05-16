@@ -1,0 +1,2 @@
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\LevelEditor\LevelEditor\LevelEditorContent\obj\x86\Debug\LevelEditorContent.contentprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\LevelEditor\LevelEditor\LevelEditorContent\obj\x86\Debug\LevelEditorContent.contentprojResolveAssemblyReference.cache

@@ -1,0 +1,4 @@
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\MultilayerPerceptron\MultilayerPerceptron\bin\Debug\MultilayerPerceptron.exe
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\MultilayerPerceptron\MultilayerPerceptron\bin\Debug\MultilayerPerceptron.pdb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\MultilayerPerceptron\MultilayerPerceptron\obj\x86\Debug\MultilayerPerceptron.exe
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\The keeper hand\Projet Visual 2010 XNA\MultilayerPerceptron\MultilayerPerceptron\obj\x86\Debug\MultilayerPerceptron.pdb
