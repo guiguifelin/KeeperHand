@@ -20,6 +20,8 @@ namespace Game
         public static Texture2D tileset_particule;
         public static Texture2D tileset_ia1;
         public static Texture2D tileset_Chest, tileset_MovingChest;
+        public static Texture2D tileset_gobelin;
+        public static Texture2D tileset_coins;
 
         #endregion
         #region TextureData
@@ -41,6 +43,11 @@ namespace Game
         /* Collision map */
         public static Texture2D t_sprite1, t_sprite2, t_sprite3, t_sprite4, t_sprite5, t_sprite6, t_sprite7,
             t_sprite8, t_sprite9, t_sprite10, t_sprite11, t_sprite12, t_sprite13, t_sprite14, t_sprite15, t_sprite16, t_sprite17;
+        /* Mobs */
+        public static Texture2D t_goblin_down1, t_goblin_down2, t_goblin_down3, t_goblin_down4,
+            t_goblin_up1, t_goblin_up2, t_goblin_up3, t_goblin_up4,
+            t_goblin_left1, t_goblin_left2, t_goblin_left3, t_goblin_left4,
+            t_goblin_right1, t_goblin_right2, t_goblin_right3, t_goblin_right4;
 
         #endregion
         #region Font
@@ -53,7 +60,7 @@ namespace Game
         public static Texture2D m_background, m_FRNew, m_FRLoad, m_FRSurvival, m_FRMultiplayer, m_FROptions, m_FRExit,
             m_ENNew, m_ENLoad, m_ENSurvival, m_ENMultiplayer, m_ENOptions, m_ENExit;
         public static Texture2D k_mana, k_money, k_cadre, k_validate, k_field;
-        public static Texture2D bg_Win, bg_Fail, bg_Pause;
+        public static Texture2D bg_Win, bg_Fail, bg_Pause, bg_loading, bg_console, bg_choiceModeEn, bg_choiceModeFR;
 
         #endregion
         #region Video
@@ -63,12 +70,22 @@ namespace Game
         #endregion
         #region Sounds
         public static SoundEffect b_Beep;
+        public static Song ambiance1;
+        #endregion
+        #region LightingEngine
+        public static Texture2D blackSquare, lightmask;
+        public static Effect lighting;
         #endregion
 
         // Methods.
 
         public static void LoadContent(ContentManager content)
         {
+            /* LightingEngine */
+            blackSquare = content.Load<Texture2D>("Ressources/Textures/Light/blacksquare");
+            lightmask = content.Load<Texture2D>("Ressources/Textures/Light/lightmask");
+            lighting = content.Load<Effect>("Ressources/Effects/lighting");
+
             /* Textures */
             Cursor = content.Load<Texture2D>("Ressources/Tileset/cursorTileSet");
             tileset_background = content.Load<Texture2D>("Ressources/Tileset/tileset_background");
@@ -78,6 +95,10 @@ namespace Game
             bg_Win = content.Load<Texture2D>("Ressources/Textures/WinBG");
             bg_Fail = content.Load<Texture2D>("Ressources/Textures/FailBG");
             bg_Pause = content.Load<Texture2D>("Ressources/Textures/Pause");
+            bg_loading = content.Load<Texture2D>("Ressources/Textures/Loading");
+            bg_console = content.Load<Texture2D>("Ressources/Textures/bg_ConsoleKH");
+            bg_choiceModeEn = content.Load<Texture2D>("Ressources/Textures/Survival/bg_typeSurvival_EN");
+            bg_choiceModeFR = content.Load<Texture2D>("Ressources/Textures/Survival/bg_typeSurvival_FR");
 
 
             /* Keeper */
@@ -90,6 +111,10 @@ namespace Game
             /* Items */
             tileset_Chest = content.Load<Texture2D>("Ressources/Tileset/tileset_Chest");
             tileset_MovingChest = content.Load<Texture2D>("Ressources/Tileset/tileset_MovingChest");
+            tileset_coins = content.Load<Texture2D>("Ressources/Tileset/tileset_Coins");
+
+            /* Mobs */
+            tileset_gobelin = content.Load<Texture2D>("Ressources/Tileset/tileset_goblin1");
 
             // Main Menu
             m_background = content.Load<Texture2D>("Ressources/Textures/Background");
@@ -146,6 +171,24 @@ namespace Game
             t_ia_11 = content.Load<Texture2D>("Ressources/TextureData/ia/1/textureDataIa1_11");
             t_ia_12 = content.Load<Texture2D>("Ressources/TextureData/ia/1/textureDataIa1_12");
 
+            /* Mobs */
+            t_goblin_down1 = content.Load<Texture2D>("Ressources/TextureData/Mobs/gobelin/goblin_down1");
+            t_goblin_down2 = content.Load<Texture2D>("Ressources/TextureData/Mobs/gobelin/goblin_down2");
+            t_goblin_down3 = content.Load<Texture2D>("Ressources/TextureData/Mobs/gobelin/goblin_down3");
+            t_goblin_down4 = content.Load<Texture2D>("Ressources/TextureData/Mobs/gobelin/goblin_down4");
+            t_goblin_up1 = content.Load<Texture2D>("Ressources/TextureData/Mobs/gobelin/goblin_up1");
+            t_goblin_up2 = content.Load<Texture2D>("Ressources/TextureData/Mobs/gobelin/goblin_up2");
+            t_goblin_up3 = content.Load<Texture2D>("Ressources/TextureData/Mobs/gobelin/goblin_up3");
+            t_goblin_up4 = content.Load<Texture2D>("Ressources/TextureData/Mobs/gobelin/goblin_up4");
+            t_goblin_left1 = content.Load<Texture2D>("Ressources/TextureData/Mobs/gobelin/goblin_left1");
+            t_goblin_left2 = content.Load<Texture2D>("Ressources/TextureData/Mobs/gobelin/goblin_left2");
+            t_goblin_left3 = content.Load<Texture2D>("Ressources/TextureData/Mobs/gobelin/goblin_left3");
+            t_goblin_left4 = content.Load<Texture2D>("Ressources/TextureData/Mobs/gobelin/goblin_left4");
+            t_goblin_right1 = content.Load<Texture2D>("Ressources/TextureData/Mobs/gobelin/goblin_right1");
+            t_goblin_right2 = content.Load<Texture2D>("Ressources/TextureData/Mobs/gobelin/goblin_right2");
+            t_goblin_right3 = content.Load<Texture2D>("Ressources/TextureData/Mobs/gobelin/goblin_right3");
+            t_goblin_right4 = content.Load<Texture2D>("Ressources/TextureData/Mobs/gobelin/goblin_right4");
+
             /*HUD*/
             bg_HUD = content.Load<Texture2D>("Ressources/TextureData/HUD/bg_HUD");
 
@@ -183,6 +226,7 @@ namespace Game
 
             /* Sounds */
             b_Beep = content.Load<SoundEffect>("Ressources/Sounds/beep");
+            ambiance1 = content.Load<Song>("Ressources/Sounds/KeeperHand_Ambiance1");
         }
     }
 }

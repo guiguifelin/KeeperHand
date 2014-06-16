@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Ressources\Tilesets\tileset_middleground.png</Source>
+      <Name>Ressources\Tilesets\tileset_middleground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\MapEditor\MapEditor\MapEditor\bin\x86\Debug\Content\Ressources\Tilesets\tileset_middleground.xnb</Output>
+      <Time>2014-05-24T17:28:43+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Tilesets\tileset_background.png</Source>
+      <Name>Ressources\Tilesets\tileset_background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\MapEditor\MapEditor\MapEditor\bin\x86\Debug\Content\Ressources\Tilesets\tileset_background.xnb</Output>
+      <Time>2014-05-24T17:28:49+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Tilesets\cursorTileSet.png</Source>
+      <Name>Ressources\Tilesets\cursorTileSet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\MapEditor\MapEditor\MapEditor\bin\x86\Debug\Content\Ressources\Tilesets\cursorTileSet.xnb</Output>
+      <Time>2014-05-24T17:28:56+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TexturesData\Cursor\textureDataCursor01.png</Source>
+      <Name>Ressources\TexturesData\Cursor\textureDataCursor01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\MapEditor\MapEditor\MapEditor\bin\x86\Debug\Content\Ressources\TexturesData\Cursor\textureDataCursor01.xnb</Output>
+      <Time>2014-05-24T17:49:12+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TexturesData\Cursor\textureDataCursor02.png</Source>
+      <Name>Ressources\TexturesData\Cursor\textureDataCursor02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\MapEditor\MapEditor\MapEditor\bin\x86\Debug\Content\Ressources\TexturesData\Cursor\textureDataCursor02.xnb</Output>
+      <Time>2014-05-24T17:49:16+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\Menus\Background.png</Source>
+      <Name>Ressources\Textures\Menus\Background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\MapEditor\MapEditor\MapEditor\bin\x86\Debug\Content\Ressources\Textures\Menus\Background.xnb</Output>
+      <Time>2014-05-27T12:58:49+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\TexturesData\Buttons\b_Options.png</Source>
+      <Name>Ressources\TexturesData\Buttons\b_Options</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\MapEditor\MapEditor\MapEditor\bin\x86\Debug\Content\Ressources\TexturesData\Buttons\b_Options.xnb</Output>
+      <Time>2014-05-27T13:43:43+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Font\font.spritefont</Source>
+      <Name>Ressources\Font\font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\MapEditor\MapEditor\MapEditor\bin\x86\Debug\Content\Ressources\Font\font.xnb</Output>
+      <Time>2014-05-24T17:46:22+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Font\medieval.spritefont</Source>
+      <Name>Ressources\Font\medieval</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\MapEditor\MapEditor\MapEditor\bin\x86\Debug\Content\Ressources\Font\medieval.xnb</Output>
+      <Time>2014-05-24T17:46:22+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\Selection.png</Source>
+      <Name>Ressources\Textures\Selection</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\MapEditor\MapEditor\MapEditor\bin\x86\Debug\Content\Ressources\Textures\Selection.xnb</Output>
+      <Time>2014-05-27T15:13:18+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ressources\Textures\bg_ConsoleKH.png</Source>
+      <Name>Ressources\Textures\bg_ConsoleKH</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\MapEditor\MapEditor\MapEditor\bin\x86\Debug\Content\Ressources\Textures\bg_ConsoleKH.xnb</Output>
+      <Time>2014-05-29T16:12:09+02:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\MapEditor\MapEditor\MapEditorContent\</RootDirectory>
+      <LoggerRootDirectory>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\MapEditor\MapEditor\MapEditor\</LoggerRootDirectory>
+      <IntermediateDirectory>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\MapEditor\MapEditor\MapEditorContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\MapEditor\MapEditor\MapEditor\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-11-11T13:37:17.5555515+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

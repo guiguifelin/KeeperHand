@@ -19,7 +19,7 @@ namespace Game
 
         //Constructors
 
-        public Menu(Texture2D texture, ref Sound sm)
+        public Menu(Texture2D texture, Sound sm)
         {
             this.texture = texture;
             this.sm = sm;

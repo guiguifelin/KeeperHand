@@ -1,0 +1,11 @@
+Content\Ressources\Tilesets\tileset_middleground.xnb
+Content\Ressources\Tilesets\tileset_background.xnb
+Content\Ressources\Tilesets\cursorTileSet.xnb
+Content\Ressources\TexturesData\Cursor\textureDataCursor01.xnb
+Content\Ressources\TexturesData\Cursor\textureDataCursor02.xnb
+Content\Ressources\Textures\Menus\Background.xnb
+Content\Ressources\TexturesData\Buttons\b_Options.xnb
+Content\Ressources\Font\font.xnb
+Content\Ressources\Font\medieval.xnb
+Content\Ressources\Textures\Selection.xnb
+Content\Ressources\Textures\bg_ConsoleKH.xnb

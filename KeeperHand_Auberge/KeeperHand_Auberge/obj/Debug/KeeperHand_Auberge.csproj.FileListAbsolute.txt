@@ -1,0 +1,9 @@
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\KeeperHand_Auberge\KeeperHand_Auberge\bin\Debug\KeeperHand_Auberge.exe.config
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\KeeperHand_Auberge\KeeperHand_Auberge\bin\Debug\KeeperHand_Auberge.exe
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\KeeperHand_Auberge\KeeperHand_Auberge\bin\Debug\KeeperHand_Auberge.pdb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\KeeperHand_Auberge\KeeperHand_Auberge\obj\Debug\KeeperHand_Auberge.Form_Tchat.resources
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\KeeperHand_Auberge\KeeperHand_Auberge\obj\Debug\KeeperHand_Auberge.Properties.Resources.resources
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\KeeperHand_Auberge\KeeperHand_Auberge\obj\Debug\KeeperHand_Auberge.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\KeeperHand_Auberge\KeeperHand_Auberge\obj\Debug\KeeperHand_Auberge.exe
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\KeeperHand_Auberge\KeeperHand_Auberge\obj\Debug\KeeperHand_Auberge.pdb
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\KeeperHand_Auberge\KeeperHand_Auberge\obj\Debug\KeeperHand_Auberge.csprojResolveAssemblyReference.cache

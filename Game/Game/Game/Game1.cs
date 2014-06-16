@@ -16,8 +16,12 @@ namespace Game
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         Main game;
+        LightingEngine lights;
+        RenderTarget2D mainScene, foreground;
         VideoManager introVideo;
         Camera camera;
+        BlendState blendState;
+        Console console;
 
         #region Get GAME1
         public GraphicsDeviceManager GRAPHICS
@@ -32,6 +36,27 @@ namespace Game
         {
             get { return spriteBatch; }
         }
+        public LightingEngine LIGHTENGINE
+        {
+            get { return lights; }
+        }
+        public RenderTarget2D MainScene
+        {
+            get { return mainScene; }
+        }
+        public RenderTarget2D Foreground
+        {
+            get { return foreground; }
+        }
+        public Camera CAMERA
+        {
+            get { return camera; }
+        }
+        public BlendState BLENDSTATE
+        {
+            get { return blendState; }
+            set { blendState = value; }
+        }
         #endregion
 
         public Game1()
@@ -41,6 +66,7 @@ namespace Game
             Window.Title = "Keeper Hand";
             graphics.PreferredBackBufferWidth = 1240;
             graphics.PreferredBackBufferHeight = 720;
+            blendState = BlendState.AlphaBlend;
         }
 
         protected override void Initialize()
@@ -55,9 +81,13 @@ namespace Game
             spriteBatch = new SpriteBatch(GraphicsDevice);
             Ressources.LoadContent(Content);
 
-            game = new Main(GraphicsDevice.Viewport);
+            console = new Console();
+            mainScene = new RenderTarget2D(graphics.GraphicsDevice, graphics.GraphicsDevice.PresentationParameters.BackBufferWidth, graphics.GraphicsDevice.PresentationParameters.BackBufferHeight);
+            foreground = new RenderTarget2D(graphics.GraphicsDevice, graphics.GraphicsDevice.PresentationParameters.BackBufferWidth, graphics.GraphicsDevice.PresentationParameters.BackBufferHeight);
+            game = new Main(this, GraphicsDevice.Viewport);
             camera = new Camera(GraphicsDevice.Viewport);
             introVideo = new VideoManager(Ressources.intro);
+            lights = new LightingEngine(this);
 
             #region APPLYSTATES
             if (MAIN.OPTIONS.STATES.FULLSCREENMODE)
@@ -79,12 +109,14 @@ namespace Game
                 this.Exit();
 
             camera.Update();
+            lights.Update(gameTime);
+            console.Update();
 
             if (introVideo.Level)
             {
                 if (AbstractStateGame.IsLoop == false)
                 {
-                    AbstractStateGame.CurrentGameState = AbstractStateGame.GameState.MainMenu;
+                    AbstractStateGame.CurrentGameState = AbstractStateGame.GameState.Update;
                     AbstractStateGame.IsLoop = true;
                 }
                 game.Update(this, gameTime);
@@ -93,7 +125,6 @@ namespace Game
             {
                 introVideo.Update(Keyboard.GetState());
             }
-
             base.Update(gameTime);
         }
 
@@ -101,8 +132,7 @@ namespace Game
         {
             GraphicsDevice.Clear(Color.Black);
 
-            spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, null, null, null, null, camera.Transform);
-
+            spriteBatch.Begin(SpriteSortMode.Immediate, blendState, null, null, null, null, camera.Transform);
             if (introVideo.Level)
             {
                 game.Draw(gameTime, spriteBatch, GraphicsDevice.Viewport);
@@ -111,8 +141,8 @@ namespace Game
             {
                 introVideo.Draw(spriteBatch, GraphicsDevice.Viewport);
             }
+            console.Draw(spriteBatch);
             spriteBatch.End();
-
             base.Draw(gameTime);
         }
     }

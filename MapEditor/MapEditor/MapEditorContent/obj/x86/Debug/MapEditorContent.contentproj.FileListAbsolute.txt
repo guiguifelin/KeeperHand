@@ -1,0 +1,1 @@
+\\vmware-host\Shared Folders\Documents\Projet - EPITA SUP\Keeper Hand\Repository\MapEditor\MapEditor\MapEditorContent\obj\x86\Debug\MapEditorContent.contentprojResolveAssemblyReference.cache

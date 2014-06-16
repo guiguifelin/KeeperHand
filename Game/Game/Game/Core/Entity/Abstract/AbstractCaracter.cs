@@ -22,7 +22,7 @@ namespace Game
 
         // Fields.
         protected Rectangle hitbox;
-        private Vector2 velocity;
+        protected Vector2 velocity;
         protected bool attack, disable, take, animation;
         protected Texture2D texture;
         protected Texture2D hitTexture;
@@ -32,6 +32,7 @@ namespace Game
         protected int life, maxLife;
         protected float countDuration, currentTime;
         protected bool slowMoveEnabled;
+        protected bool lightEnabled;
 
         // Get & Set.
         public Color[] TextureData
@@ -52,6 +53,10 @@ namespace Game
         {
             get { return state; }
             set { state = value; }
+        }
+        public bool LightEnabled
+        {
+            get { return lightEnabled; }
         }
 
         // Methods.
@@ -203,6 +208,10 @@ namespace Game
                     }
                 }
             }
+            if (Inputs.isKeyRelease(Keys.RightShift))
+            {
+                lightEnabled = !lightEnabled;
+            }
         }
         protected void SlowMove(GameTime time)
         {
@@ -219,19 +228,19 @@ namespace Game
                 {
                     if (velocity.X > 0)
                     {
-                        velocity.X -= 1;
+                        velocity.X = -1f;
                     }
                     else if (velocity.X < 0)
                     {
-                        velocity.X += 1;
+                        velocity.X = 1f;
                     }
-                    if (velocity.Y > 0)
+                    else if (velocity.Y > 0)
                     {
-                        velocity.Y -= 1;
+                        velocity.Y = -1f;
                     }
                     else if (velocity.Y < 0)
                     {
-                        velocity.Y += 1;
+                        velocity.Y = 1f;
                     }
                 }
             }

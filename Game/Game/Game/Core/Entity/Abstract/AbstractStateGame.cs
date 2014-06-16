@@ -18,6 +18,7 @@ namespace Game
             Multiplayer,
             Survival,
             SettingsHotkeys,
+            Update
         }
 
         public static GameState CurrentGameState;

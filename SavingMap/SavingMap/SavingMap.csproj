@@ -93,6 +93,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayMap.cs" />
+    <Compile Include="Donjon.cs" />
+    <Compile Include="SaveDonjon.cs" />
     <Compile Include="SaveMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

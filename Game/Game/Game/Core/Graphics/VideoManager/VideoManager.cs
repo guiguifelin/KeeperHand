@@ -52,6 +52,11 @@ namespace Game
             videoP.Play(video);
         }
 
+        public void Dispose()
+        {
+            videoP.Dispose();
+        }
+
         // Update & Draw.
 
         public void Update(KeyboardState keyboard)

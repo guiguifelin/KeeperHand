@@ -106,6 +106,22 @@ namespace Game
             get { return textureData24; }
             set { textureData24 = value; }
         }
+        public bool EnabledMob1
+        {
+            get { return enabledMob1; }
+        }
+        public bool EnabledMob2
+        {
+            get { return enabledMob2; }
+        }
+        public bool EnabledMob3
+        {
+            get { return enabledMob3; }
+        }
+        public bool EnabledMob4
+        {
+            get { return enabledMob4; }
+        }
         #endregion
 
         // Methods.
@@ -147,6 +163,21 @@ namespace Game
                 currentTime -= countDuration;
             }
         }
+        public void ResetPlayer()
+        {
+            enabledTrap1 = false;
+            enabledTrap2 = false;
+            enabledTrap3 = false;
+            enabledTrap4 = false;
+            enabledSpell1 = false;
+            enabledSpell2 = false;
+            enabledSpell3 = false;
+            enabledSpell4 = false;
+            enabledMob1 = false;
+            enabledMob2 = false;
+            enabledMob3 = false;
+            enabledMob4 = false;
+        }
 
         // Update & Draw.
         public void Update(Game1 game, GameTime time, KeyboardState keyboard, MouseState mouse)
@@ -161,76 +192,76 @@ namespace Game
             }
             if (Inputs.isKeyRelease(game.MAIN.HOTKEYS.Trap1) && mana > 20)
             {
-                MinusMana(20);
+                MinusMana(75);
                 enabledTrap1 = true;
             }
-            else if (Inputs.isLMBClick()) { if (enabledTrap1) { k_function(this, ref IAs, "TRAP1"); } enabledTrap1 = false; }
+            else if (Inputs.isLMBClick()) { if (enabledTrap1) { k_function(this, ref IAs, game.MAIN.SURVIVAL.Enemies, "TRAP1"); } enabledTrap1 = false; }
             if (Inputs.isKeyRelease(game.MAIN.HOTKEYS.Trap2) && mana > 30)
             {
                 MinusMana(30);
                 enabledTrap2 = true;
             }
-            else if (Inputs.isLMBClick()) { if (enabledTrap2) { k_function(this, ref IAs, "TRAP2"); } enabledTrap2 = false; }
+            else if (Inputs.isLMBClick()) { if (enabledTrap2) { k_function(this, ref IAs, game.MAIN.SURVIVAL.Enemies, "TRAP2"); } enabledTrap2 = false; }
             if (Inputs.isKeyRelease(game.MAIN.HOTKEYS.Trap3) && mana > 35) 
             {
                 MinusMana(35);
                 enabledTrap3 = true;
             }
-            else if (Inputs.isLMBClick()) { if (enabledTrap3) { k_function(this, ref IAs, "TRAP3"); } enabledTrap3 = false; }
+            else if (Inputs.isLMBClick()) { if (enabledTrap3) { k_function(this, ref IAs, game.MAIN.SURVIVAL.Enemies, "TRAP3"); } enabledTrap3 = false; }
             if (Inputs.isKeyRelease(game.MAIN.HOTKEYS.Trap4) && mana > 55)
             {
                 MinusMana(55);
                 enabledTrap4 = true;
             }
-            else if (Inputs.isLMBClick()) { if (enabledTrap4) { k_function(this, ref IAs, "TRAP4"); } enabledTrap4 = false; }
+            else if (Inputs.isLMBClick()) { if (enabledTrap4) { k_function(this, ref IAs, game.MAIN.SURVIVAL.Enemies, "TRAP4"); } enabledTrap4 = false; }
             if (Inputs.isKeyRelease(game.MAIN.HOTKEYS.Spell1) && mana > 20)
             {
-                MinusMana(20);
+                MinusMana(150);
                 enabledSpell1 = true;
             }
-            else if (Inputs.isLMBClick()) { if (enabledSpell1) { k_function(this, ref IAs, "SPELL1"); } enabledSpell1 = false; }
+            else if (Inputs.isLMBClick()) { if (enabledSpell1) { k_function(this, ref IAs, game.MAIN.SURVIVAL.Enemies, "SPELL1"); } enabledSpell1 = false; }
             if (Inputs.isKeyRelease(game.MAIN.HOTKEYS.Spell2) && mana > 30)
             {
                 MinusMana(30);
                 enabledSpell2 = true;
             }
-            else if (Inputs.isLMBClick()) { if (enabledSpell2) { k_function(this, ref IAs, "SPELL2"); } enabledSpell2 = false; }
+            else if (Inputs.isLMBClick()) { if (enabledSpell2) { k_function(this, ref IAs, game.MAIN.SURVIVAL.Enemies, "SPELL2"); } enabledSpell2 = false; }
             if (Inputs.isKeyRelease(game.MAIN.HOTKEYS.Spell3) && mana > 35)
             {
                 MinusMana(35);
                 enabledSpell3 = true;
             }
-            else if (Inputs.isLMBClick()) { if (enabledSpell3) { k_function(this, ref IAs, "SPELL3"); } enabledSpell3 = false; }
+            else if (Inputs.isLMBClick()) { if (enabledSpell3) { k_function(this, ref IAs, game.MAIN.SURVIVAL.Enemies, "SPELL3"); } enabledSpell3 = false; }
             if (Inputs.isKeyRelease(game.MAIN.HOTKEYS.Spell4) && mana > 55)
             {
                 MinusMana(55);
                 enabledSpell4 = true;
             }
-            else if (Inputs.isLMBClick()) { if (enabledSpell4) { k_function(this, ref IAs, "SPELL4"); } enabledSpell4 = false; }
+            else if (Inputs.isLMBClick()) { if (enabledSpell4) { k_function(this, ref IAs, game.MAIN.SURVIVAL.Enemies, "SPELL4"); } enabledSpell4 = false; }
             if (Inputs.isKeyRelease(game.MAIN.HOTKEYS.Mob1) && money > 50)
             {
-                MinusMoney(50);
+                MinusMoney(200);
                 enabledMob1 = true;
             }
-            else if (Inputs.isLMBClick()) { if (enabledMob1) { k_function(this, ref IAs, "MOB1"); } enabledMob1 = false; }
+            else if (Inputs.isLMBClick()) { if (enabledMob1) { k_function(this, ref IAs, game.MAIN.SURVIVAL.Enemies, "MOB1"); } enabledMob1 = false; }
             if (Inputs.isKeyRelease(game.MAIN.HOTKEYS.Mob2) && money > 100)
             {
-                MinusMoney(100);
+                MinusMoney(300);
                 enabledMob2 = true;
             }
-            else if (Inputs.isLMBClick()) { if (enabledMob2) { function("MOB2"); } enabledMob2 = false; }
+            else if (Inputs.isLMBClick()) { if (enabledMob2) { k_function(this, ref IAs, game.MAIN.SURVIVAL.Enemies, "MOB2"); } enabledMob2 = false; }
             if (Inputs.isKeyRelease(game.MAIN.HOTKEYS.Mob3) && money > 200)
             {
-                MinusMoney(200);
+                MinusMoney(400);
                 enabledMob3 = true;
             }
-            else if (Inputs.isLMBClick()) { if (enabledMob3) { function("MOB3"); } enabledMob3 = false; }
+            else if (Inputs.isLMBClick()) { if (enabledMob3) { k_function(this, ref IAs, game.MAIN.SURVIVAL.Enemies, "MOB3"); } enabledMob3 = false; }
             if (Inputs.isKeyRelease(game.MAIN.HOTKEYS.Mob4) && money > 400)
             {
-                MinusMoney(400);
+                MinusMoney(800);
                 enabledMob4 = true;
             }
-            else if (Inputs.isLMBClick()) { if (enabledMob4) { function("MOB4"); } enabledMob4 = false; }
+            else if (Inputs.isLMBClick()) { if (enabledMob4) { k_function(this, ref IAs, game.MAIN.SURVIVAL.Enemies, "MOB4"); } enabledMob4 = false; }
         }
         public void Draw(SpriteBatch spriteBatch)
         {

@@ -1,0 +1,7 @@
+/Users/guillaumerobin/Documents/Projet - EPITA SUP/Keeper Hand/Repository/KeeperHand_Auberge/KeeperHand_Auberge/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/guillaumerobin/Documents/Projet - EPITA SUP/Keeper Hand/Repository/KeeperHand_Auberge/KeeperHand_Auberge/obj/Debug/KeeperHand_Auberge.Form_Tchat.resources
+/Users/guillaumerobin/Documents/Projet - EPITA SUP/Keeper Hand/Repository/KeeperHand_Auberge/KeeperHand_Auberge/obj/Debug/KeeperHand_Auberge.Properties.Resources.resources
+/Users/guillaumerobin/Documents/Projet - EPITA SUP/Keeper Hand/Repository/KeeperHand_Auberge/KeeperHand_Auberge/bin/Debug/KeeperHand_Auberge.exe.mdb
+/Users/guillaumerobin/Documents/Projet - EPITA SUP/Keeper Hand/Repository/KeeperHand_Auberge/KeeperHand_Auberge/bin/Debug/KeeperHand_Auberge.exe
+/Users/guillaumerobin/Documents/Projet - EPITA SUP/Keeper Hand/Repository/KeeperHand_Auberge/KeeperHand_Auberge/obj/Debug/KeeperHand_Auberge.exe
+/Users/guillaumerobin/Documents/Projet - EPITA SUP/Keeper Hand/Repository/KeeperHand_Auberge/KeeperHand_Auberge/obj/Debug/KeeperHand_Auberge.exe.mdb

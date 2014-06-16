@@ -17,6 +17,25 @@ namespace Game
 
         // Methods.
 
+        /* Game */
+
+        public static void Serialization(AbstractGame game_set, string name)
+        {
+            fs = new FileStream(Environment.CurrentDirectory + "\\Data\\" + name + ".KH", FileMode.Create);
+            serializer = new BinaryFormatter();
+            serializer.Serialize(fs, game_set);
+            fs.Close();
+        }
+        public static AbstractGame Deserialization(AbstractGame game_set, string nameGameSet)
+        {
+            AbstractGame newGameSet = new AbstractGame();
+            fs = new FileStream(Environment.CurrentDirectory + "\\Data\\" + nameGameSet + ".KH", FileMode.Open);
+            serializer = new BinaryFormatter();
+            newGameSet = (AbstractGame)serializer.Deserialize(fs);
+            fs.Close();
+            return newGameSet;
+        }
+
         /* StateOption */
 
         public static void Serialization(StateOptions options, string name)
@@ -70,6 +89,6 @@ namespace Game
             newLevel = (Gameplay)serializer.Deserialize(fs);
             fs.Close();
             return newLevel;
-        } 
+        }
     }
 }

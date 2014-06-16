@@ -77,10 +77,12 @@ namespace Game
                     if (game.MAIN.OPTIONS.STATES.SOUDNMUTED)
                     {
                         game.MAIN.SOUNDMANAGER.MuteNoises();
+                        game.MAIN.SOUNDMANAGER.Mute();
                     }
                     else
                     {
                         game.MAIN.SOUNDMANAGER.UnmuteNoises();
+                        game.MAIN.SOUNDMANAGER.Unmute();
                     }
                     game.MAIN.OPTIONS.STATES.ENABLEDSAVE = true;
                     game.MAIN.OPTIONS.STATES.ENABLEDCHANGEVOL = true;
@@ -89,12 +91,14 @@ namespace Game
                     if (!game.MAIN.OPTIONS.STATES.SOUDNMUTED)
                     {
                         game.MAIN.SOUNDMANAGER.VolumeUpNoises();
+                        game.MAIN.SOUNDMANAGER.Volume_Up();
                     }
                     break;
                 case "VOLUMEDOWN":
                     if (!game.MAIN.OPTIONS.STATES.SOUDNMUTED)
                     {
                         game.MAIN.SOUNDMANAGER.VolumeDownNoises();
+                        game.MAIN.SOUNDMANAGER.Volume_Down();
                     }
                     break;
                 case "MAINMENU":
@@ -181,6 +185,35 @@ namespace Game
                     break;
                 case "SETKEYS":
                     AbstractStateGame.CurrentGameState = AbstractStateGame.GameState.SettingsHotkeys;
+                    break;
+                case "MODESOLOSURVIVAL":
+                    foreach (IA ia in game.MAIN.SURVIVAL.LISTIA)
+                    {
+                        ia.solo = true;
+                        ia.local = false;
+                        ia.online = false;
+                    }
+                    game.MAIN.SURVIVAL.s_state = Survival.SurvivalState.Solo;
+                    break;
+                case "MODELOCALSURVIVAL":
+                    foreach (IA ia in game.MAIN.SURVIVAL.LISTIA)
+                    {
+                        ia.solo = false;
+                        ia.local = true;
+                        ia.online = false;
+                    }
+                    game.MAIN.SURVIVAL.s_state = Survival.SurvivalState.MultiLocal;
+                    break;
+                case "MODEMULTISURVIVAL":
+                    /* Non disponible
+                    foreach (IA ia in game.MAIN.SURVIVAL.LISTIA)
+                    {
+                        ia.solo = false;
+                        ia.local = false;
+                        ia.online = true;
+                    }
+                    game.MAIN.SURVIVAL.s_state = Survival.SurvivalState.MultiOnline;
+                     * */
                     break;
             }
         }

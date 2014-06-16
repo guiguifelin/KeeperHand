@@ -569,6 +569,156 @@
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ressources\Textures\Loading.png">
+      <Name>Loading</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ressources\Tileset\tileset_goblin1.png">
+      <Name>tileset_goblin1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ressources\TextureData\Mobs\gobelin\goblin_down1.png">
+      <Name>goblin_down1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Ressources\TextureData\Mobs\gobelin\goblin_down2.png">
+      <Name>goblin_down2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Ressources\TextureData\Mobs\gobelin\goblin_down3.png">
+      <Name>goblin_down3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Ressources\TextureData\Mobs\gobelin\goblin_down4.png">
+      <Name>goblin_down4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Ressources\TextureData\Mobs\gobelin\goblin_left1.png">
+      <Name>goblin_left1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Ressources\TextureData\Mobs\gobelin\goblin_left2.png">
+      <Name>goblin_left2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Ressources\TextureData\Mobs\gobelin\goblin_left3.png">
+      <Name>goblin_left3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Ressources\TextureData\Mobs\gobelin\goblin_left4.png">
+      <Name>goblin_left4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Ressources\TextureData\Mobs\gobelin\goblin_right1.png">
+      <Name>goblin_right1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Ressources\TextureData\Mobs\gobelin\goblin_right2.png">
+      <Name>goblin_right2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Ressources\TextureData\Mobs\gobelin\goblin_right3.png">
+      <Name>goblin_right3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Ressources\TextureData\Mobs\gobelin\goblin_right4.png">
+      <Name>goblin_right4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Ressources\TextureData\Mobs\gobelin\goblin_up1.png">
+      <Name>goblin_up1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Ressources\TextureData\Mobs\gobelin\goblin_up2.png">
+      <Name>goblin_up2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Ressources\TextureData\Mobs\gobelin\goblin_up3.png">
+      <Name>goblin_up3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Ressources\TextureData\Mobs\gobelin\goblin_up4.png">
+      <Name>goblin_up4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ressources\Effects\lighting.fx">
+      <Name>lighting</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ressources\Textures\Light\blacksquare.png">
+      <Name>blacksquare</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ressources\Textures\Light\lightmask.png">
+      <Name>lightmask</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ressources\Textures\bg_ConsoleKH.png">
+      <Name>bg_ConsoleKH</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ressources\Textures\Survival\bg_typeSurvival_EN.png">
+      <Name>bg_typeSurvival_EN</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Ressources\Textures\Survival\bg_typeSurvival_FR.png">
+      <Name>bg_typeSurvival_FR</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ressources\Sounds\KeeperHand_Ambiance1.mp3">
+      <Name>KeeperHand_Ambiance1</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ressources\Tileset\tileset_Coins.png">
+      <Name>tileset_Coins</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
   <!--  To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

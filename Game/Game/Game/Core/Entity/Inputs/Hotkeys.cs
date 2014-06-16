@@ -112,62 +112,62 @@ namespace Game
         public void SetTrap1(Keys key)
         {
             c_trap1 = key;
-            Console.WriteLine("Trap 1 : {0}", c_trap1.ToString());
+            Console.WriteLine("[HOTKEYS] Key Trap 1 : " + key.ToString());
         }
         public void SetTrap2(Keys key)
         {
-            c_trap2 = key;
-            Console.WriteLine("Trap 2 : {0}", c_trap2.ToString());
+            c_trap2 = key; 
+            Console.WriteLine("[HOTKEYS] Key Trap 2 : " + key.ToString());
         }
         public void SetTrap3(Keys key)
         {
             c_trap3 = key;
-            Console.WriteLine("Trap 3 : {0}", c_trap3.ToString());
+            Console.WriteLine("[HOTKEYS] Key Trap 3 : " + key.ToString());
         }
         public void SetTrap4(Keys key)
         {
             c_trap4 = key;
-            Console.WriteLine("Trap 4 : {0}", c_trap4.ToString());
+            Console.WriteLine("[HOTKEYS] Key Trap 4 : " + key.ToString());
         }
         public void SetSpell1(Keys key)
         {
             c_spell1 = key;
-            Console.WriteLine("Spell 1 : {0}", c_spell1.ToString());
+            Console.WriteLine("[HOTKEYS] Key Spell 1 : " + key.ToString());
         }
         public void SetSpell2(Keys key)
         {
             c_spell2 = key;
-            Console.WriteLine("Spell 2 : {0}", c_spell2.ToString());
+            Console.WriteLine("[HOTKEYS] Key Spell 2 : " + key.ToString());
         }
         public void SetSpell3(Keys key)
         {
             c_spell3 = key;
-            Console.WriteLine("Spell 3 : {0}", c_spell3.ToString());
+            Console.WriteLine("[HOTKEYS] Key Spell 3 : " + key.ToString());
         }
         public void SetSpell4(Keys key)
         {
             c_spell4 = key;
-            Console.WriteLine("Spell 4 : {0}", c_spell4.ToString());
+            Console.WriteLine("[HOTKEYS] Key Spell 4 : " + key.ToString());
         }
         public void SetMob1(Keys key)
         {
             c_mob1 = key;
-            Console.WriteLine("Mob 1 : {0}", c_mob1.ToString());
+            Console.WriteLine("[HOTKEYS] Key Mob 1 : " + key.ToString());
         }
         public void SetMob2(Keys key)
         {
             c_mob2 = key;
-            Console.WriteLine("Mob 2 : {0}", c_mob2.ToString());
+            Console.WriteLine("[HOTKEYS] Key Mob 2 : " + key.ToString());
         }
         public void SetMob3(Keys key)
         {
             c_mob3 = key;
-            Console.WriteLine("Mob 3 : {0}", c_mob3.ToString());
+            Console.WriteLine("[HOTKEYS] Key Mob 3 : " + key.ToString());
         }
         public void SetMob4(Keys key)
         {
             c_mob4 = key;
-            Console.WriteLine("Mob 4 : {0}", c_mob4.ToString());
+            Console.WriteLine("[HOTKEYS] Key Mob 4 : " + key.ToString());
         }
         #endregion
         public void SetHotkeysCustoms(bool custom)
@@ -185,18 +185,6 @@ namespace Game
             this.mob2 = c_mob2;
             this.mob3 = c_mob3;
             this.mob4 = c_mob4;
-            Console.WriteLine("Trap 1 : {0}", c_trap1.ToString());
-            Console.WriteLine("Trap 2 : {0}", c_trap2.ToString());
-            Console.WriteLine("Trap 3 : {0}", c_trap3.ToString());
-            Console.WriteLine("Trap 4 : {0}", c_trap4.ToString());
-            Console.WriteLine("Spell 1 : {0}", c_spell1.ToString());
-            Console.WriteLine("Spell 2 : {0}", c_spell2.ToString());
-            Console.WriteLine("Spell 3 : {0}", c_spell3.ToString());
-            Console.WriteLine("Spell 4 : {0}", c_spell4.ToString());
-            Console.WriteLine("Mob 1 : {0}", c_mob1.ToString());
-            Console.WriteLine("Mob 2 : {0}", c_mob2.ToString());
-            Console.WriteLine("Mob 3 : {0}", c_mob3.ToString());
-            Console.WriteLine("Mob 4 : {0}", c_mob4.ToString());
         }
 
         public Hotkeys LoadHotkeys()

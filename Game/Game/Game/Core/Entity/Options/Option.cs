@@ -19,7 +19,7 @@ namespace Game
 
         public Option(Texture2D texture, ref Sound sm)
         {
-            option = new Menu(texture, ref sm);
+            option = new Menu(texture, sm);
             try
             {
                 state = StateOptions.LoadStateOptions(state);

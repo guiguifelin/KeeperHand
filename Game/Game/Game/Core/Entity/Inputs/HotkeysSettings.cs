@@ -18,7 +18,7 @@ namespace Game
         // Constructor.
         public HotkeysSettings(Texture2D texture, ref Sound sm)
         {
-            setting = new Menu(texture, ref sm);
+            setting = new Menu(texture, sm);
             loaded = false;
             trap1 = false;
             trap2 = false;
@@ -37,18 +37,18 @@ namespace Game
         // Methods. /* 172x60 */
         private void AddButtons(Game1 game)
         {
-            setting.AddButton(new Button(Ressources.t_buttonOptions, new Rectangle(330, 350, Ressources.t_buttonOptions.Width, Ressources.t_buttonOptions.Height), game.MAIN.OPTIONS.TEXTMANAGER.TRAP1, "SETTRAP1"));
-            setting.AddButton(new Button(Ressources.t_buttonOptions, new Rectangle(330, 435, Ressources.t_buttonOptions.Width, Ressources.t_buttonOptions.Height), game.MAIN.OPTIONS.TEXTMANAGER.TRAP2, "SETTRAP2"));
-            setting.AddButton(new Button(Ressources.t_buttonOptions, new Rectangle(330, 520, Ressources.t_buttonOptions.Width, Ressources.t_buttonOptions.Height), game.MAIN.OPTIONS.TEXTMANAGER.TRAP3, "SETTRAP3"));
-            setting.AddButton(new Button(Ressources.t_buttonOptions, new Rectangle(330, 605, Ressources.t_buttonOptions.Width, Ressources.t_buttonOptions.Height), game.MAIN.OPTIONS.TEXTMANAGER.TRAP4, "SETTRAP4"));
-            setting.AddButton(new Button(Ressources.t_buttonOptions, new Rectangle(527, 350, Ressources.t_buttonOptions.Width, Ressources.t_buttonOptions.Height), game.MAIN.OPTIONS.TEXTMANAGER.SPELL1, "SETSPELL1"));
-            setting.AddButton(new Button(Ressources.t_buttonOptions, new Rectangle(527, 435, Ressources.t_buttonOptions.Width, Ressources.t_buttonOptions.Height), game.MAIN.OPTIONS.TEXTMANAGER.SPELL2, "SETSPELL2"));
-            setting.AddButton(new Button(Ressources.t_buttonOptions, new Rectangle(527, 520, Ressources.t_buttonOptions.Width, Ressources.t_buttonOptions.Height), game.MAIN.OPTIONS.TEXTMANAGER.SPELL3, "SETSPELL3"));
-            setting.AddButton(new Button(Ressources.t_buttonOptions, new Rectangle(527, 605, Ressources.t_buttonOptions.Width, Ressources.t_buttonOptions.Height), game.MAIN.OPTIONS.TEXTMANAGER.SPELL4, "SETSPELL4"));
-            setting.AddButton(new Button(Ressources.t_buttonOptions, new Rectangle(724, 350, Ressources.t_buttonOptions.Width, Ressources.t_buttonOptions.Height), game.MAIN.OPTIONS.TEXTMANAGER.MOB1, "SETMOB1"));
-            setting.AddButton(new Button(Ressources.t_buttonOptions, new Rectangle(724, 435, Ressources.t_buttonOptions.Width, Ressources.t_buttonOptions.Height), game.MAIN.OPTIONS.TEXTMANAGER.MOB2, "SETMOB2"));
-            setting.AddButton(new Button(Ressources.t_buttonOptions, new Rectangle(724, 520, Ressources.t_buttonOptions.Width, Ressources.t_buttonOptions.Height), game.MAIN.OPTIONS.TEXTMANAGER.MOB3, "SETMOB3"));
-            setting.AddButton(new Button(Ressources.t_buttonOptions, new Rectangle(724, 605, Ressources.t_buttonOptions.Width, Ressources.t_buttonOptions.Height), game.MAIN.OPTIONS.TEXTMANAGER.MOB4, "SETMOB4"));
+            setting.AddButton(new Button(Ressources.t_buttonOptions, new Rectangle(330, 350, Ressources.t_buttonOptions.Width, Ressources.t_buttonOptions.Height), game.MAIN.OPTIONS.TEXTMANAGER.TRAP1 + " : " + game.MAIN.HOTKEYS.Trap1.ToString(), "SETTRAP1"));
+            setting.AddButton(new Button(Ressources.t_buttonOptions, new Rectangle(330, 435, Ressources.t_buttonOptions.Width, Ressources.t_buttonOptions.Height), game.MAIN.OPTIONS.TEXTMANAGER.TRAP2 + " : " + game.MAIN.HOTKEYS.Trap2.ToString(), "SETTRAP2"));
+            setting.AddButton(new Button(Ressources.t_buttonOptions, new Rectangle(330, 520, Ressources.t_buttonOptions.Width, Ressources.t_buttonOptions.Height), game.MAIN.OPTIONS.TEXTMANAGER.TRAP3 + " : " + game.MAIN.HOTKEYS.Trap3.ToString(), "SETTRAP3"));
+            setting.AddButton(new Button(Ressources.t_buttonOptions, new Rectangle(330, 605, Ressources.t_buttonOptions.Width, Ressources.t_buttonOptions.Height), game.MAIN.OPTIONS.TEXTMANAGER.TRAP4 + " : " + game.MAIN.HOTKEYS.Trap4.ToString(), "SETTRAP4"));
+            setting.AddButton(new Button(Ressources.t_buttonOptions, new Rectangle(527, 350, Ressources.t_buttonOptions.Width, Ressources.t_buttonOptions.Height), game.MAIN.OPTIONS.TEXTMANAGER.SPELL1 + " : " + game.MAIN.HOTKEYS.Spell1.ToString(), "SETSPELL1"));
+            setting.AddButton(new Button(Ressources.t_buttonOptions, new Rectangle(527, 435, Ressources.t_buttonOptions.Width, Ressources.t_buttonOptions.Height), game.MAIN.OPTIONS.TEXTMANAGER.SPELL2 + " : " + game.MAIN.HOTKEYS.Spell2.ToString(), "SETSPELL2"));
+            setting.AddButton(new Button(Ressources.t_buttonOptions, new Rectangle(527, 520, Ressources.t_buttonOptions.Width, Ressources.t_buttonOptions.Height), game.MAIN.OPTIONS.TEXTMANAGER.SPELL3 + " : " + game.MAIN.HOTKEYS.Spell3.ToString(), "SETSPELL3"));
+            setting.AddButton(new Button(Ressources.t_buttonOptions, new Rectangle(527, 605, Ressources.t_buttonOptions.Width, Ressources.t_buttonOptions.Height), game.MAIN.OPTIONS.TEXTMANAGER.SPELL4 + " : " + game.MAIN.HOTKEYS.Spell4.ToString(), "SETSPELL4"));
+            setting.AddButton(new Button(Ressources.t_buttonOptions, new Rectangle(724, 350, Ressources.t_buttonOptions.Width, Ressources.t_buttonOptions.Height), game.MAIN.OPTIONS.TEXTMANAGER.MOB1 + " : " + game.MAIN.HOTKEYS.Mob1.ToString(), "SETMOB1"));
+            setting.AddButton(new Button(Ressources.t_buttonOptions, new Rectangle(724, 435, Ressources.t_buttonOptions.Width, Ressources.t_buttonOptions.Height), game.MAIN.OPTIONS.TEXTMANAGER.MOB2 + " : " + game.MAIN.HOTKEYS.Mob2.ToString(), "SETMOB2"));
+            setting.AddButton(new Button(Ressources.t_buttonOptions, new Rectangle(724, 520, Ressources.t_buttonOptions.Width, Ressources.t_buttonOptions.Height), game.MAIN.OPTIONS.TEXTMANAGER.MOB3 + " : " + game.MAIN.HOTKEYS.Mob3.ToString(), "SETMOB3"));
+            setting.AddButton(new Button(Ressources.t_buttonOptions, new Rectangle(724, 605, Ressources.t_buttonOptions.Width, Ressources.t_buttonOptions.Height), game.MAIN.OPTIONS.TEXTMANAGER.MOB4 + " : " + game.MAIN.HOTKEYS.Mob4.ToString(), "SETMOB4"));
             setting.AddButton(new Button(Ressources.t_buttonOptions, new Rectangle(10, 650, Ressources.t_buttonOptions.Width, Ressources.t_buttonOptions.Height), game.MAIN.OPTIONS.TEXTMANAGER.OPTIONS, "BackToOptions"));
         }
 

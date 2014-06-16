@@ -1,0 +1,46 @@
+#!/bin/bash
+apple_message()
+{
+	cat << EOF > /tmp/message.applescript
+tell app "Finder" to display dialog "$1" buttons "Ok"
+EOF
+osascript /tmp/message.applescript
+}
+
+
+export PLAYONLINUX="/Applications/PlayOnMac.app/Contents/Resources/playonlinux"
+export LANG="fr_FR.UTF-8"
+export POL_LANG="fr"
+export REPERTOIRE="/Users/guillaumerobin/Library/PlayOnMac/"
+export PLAYONMAC="$PLAYONLINUX"
+export POL_USER_ROOT="$REPERTOIRE"
+export NOGETTEXT="TRUE"
+export POL_OS="Mac"
+
+
+source "$PLAYONLINUX/lib/sources"
+dir=$(dirname "$0")
+cd "$dir"
+export RDISPLAY="$DISPLAY"
+export OSX_VERSION="$(uname -r | awk -F '.' '{print $1}')"
+[[ "$OSX_VERSION" -lt 10 ]] && export OSX_TOO_OLD="TRUE"
+
+
+if [ "$OSX_VERSION" -lt 9 ]
+then
+	apple_message "Your Mac OS X version is too old to use PlayOnMac"
+	exit 0
+fi
+
+if [ ! -e "$PLAYONLINUX" ]
+then
+	apple_message "Error ! Unable to find $PLAYONLINUX"
+	exit 0
+fi
+
+export PATH="$PLAYONLINUX/../unix/wine/bin:$PLAYONLINUX/../unix/image_magick/bin:$PLAYONLINUX/../unix/tools/bin/:$PATH"
+export LD_LIBRARY_PATH="$PLAYONLINUX/../unix/wine/lib:$PLAYONLINUX/../unix/tools/lib/ld:/usr/X11/lib:$LD_LIBRARY_PATH"
+
+cd "$REPERTOIRE/shortcuts"
+shift
+bash "FTLGame" $@ &

@@ -72,7 +72,7 @@ namespace SavingMap
                 sizeColumn = viewport.Height / (texture.Height / 1);
             }
 
-            int[,] map = new int[sizeColumn + 50, sizeRow + 50];
+            int[,] map = new int[sizeColumn + 55, sizeRow + 55];
             return map;
         }
         public void SaveAllMaps(int[,] mapBackground, int[,] mapMiddleground, int[,] mapForeground, int[,] mapAction)

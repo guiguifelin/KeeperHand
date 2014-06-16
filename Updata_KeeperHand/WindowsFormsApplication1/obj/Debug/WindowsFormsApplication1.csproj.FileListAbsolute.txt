@@ -1,0 +1,11 @@
+\\vmware-host\Shared Folders\Bureau\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ICSharpCode.SharpZipLib.dll
+\\vmware-host\Shared Folders\Bureau\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ICSharpCode.SharpZipLib.pdb
+\\vmware-host\Shared Folders\Bureau\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ICSharpCode.SharpZipLib.xml
+\\vmware-host\Shared Folders\Bureau\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+\\vmware-host\Shared Folders\Bureau\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\Bureau\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Update_KeeperHand.exe.config
+\\vmware-host\Shared Folders\Bureau\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Update_KeeperHand.exe
+\\vmware-host\Shared Folders\Bureau\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Update_KeeperHand.pdb
+\\vmware-host\Shared Folders\Bureau\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Update_KeeperHand.Properties.Resources.resources
+\\vmware-host\Shared Folders\Bureau\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Update_KeeperHand.exe
+\\vmware-host\Shared Folders\Bureau\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Update_KeeperHand.pdb

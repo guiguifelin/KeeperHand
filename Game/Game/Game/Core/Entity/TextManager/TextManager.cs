@@ -16,6 +16,8 @@ namespace Game
         private string trap1, trap2, trap3, trap4, spell1, spell2, spell3, spell4, mob1, mob2, mob3, mob4, options;
         /* Survival */
         private string SurvivalRestart, SurvivalMenu, SurvivalResume;
+        /* Survival Choose mode */
+        private string SurvivalChooseSolo, SurvivalChooseLocal, SurvivalChooseMulti;
 
         // Constructor.
         public TextManager(StateOptions state) 
@@ -136,6 +138,21 @@ namespace Game
             get { return setKeys; }
             set { setKeys = value; }
         }
+        public string SURVIVALCHOOSESOLO
+        {
+            get { return SurvivalChooseSolo; }
+            set { SurvivalChooseSolo = value; }
+        }
+        public string SURVIVALCHOOSELOCAL
+        {
+            get { return SurvivalChooseLocal; }
+            set { SurvivalChooseLocal = value; }
+        }
+        public string SURVIVALCHOOSEMULTI
+        {
+            get { return SurvivalChooseMulti; }
+            set { SurvivalChooseMulti = value; }
+        }
         #endregion
 
         // Methods.
@@ -157,6 +174,9 @@ namespace Game
                 SurvivalRestart = "Restart";
                 SurvivalMenu = "Main Menu";
                 SurvivalResume = "Resume";
+                SurvivalChooseSolo = "   Solo";
+                SurvivalChooseLocal = "Local Net.";
+                SurvivalChooseMulti = "Online";
 
                 /* Settings hotkeys */
                 options = "Options";
@@ -189,6 +209,9 @@ namespace Game
                 SurvivalRestart = "Rejouer";
                 SurvivalMenu = "   Menu";
                 SurvivalResume = "Continuer";
+                SurvivalChooseSolo = "   Solo";
+                SurvivalChooseLocal = "En local";
+                SurvivalChooseMulti = "En ligne";
 
                 /* Settings hotkeys */
                 options = "Options";

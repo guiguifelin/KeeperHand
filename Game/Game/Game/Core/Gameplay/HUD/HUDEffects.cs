@@ -37,7 +37,7 @@ namespace Game
             }
         }
 
-        protected void k_function(Keeper keeper, ref List<IA> IAs, string str)
+        protected void k_function(Keeper keeper, ref List<IA> IAs, List<Enemy> enemies,string str)
         {
             switch (str)
             {
@@ -61,7 +61,8 @@ namespace Game
                     }
                     break;
                 case "MOB1":
-                    /* Ennemy */
+                    enemies.Add(new Enemy(Ressources.tileset_gobelin, new Vector2(Mouse.GetState().X, Mouse.GetState().Y), 
+                        50f, 100f, true, false, false, false));
                     break;
                 default:
                     // None.

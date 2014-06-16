@@ -7,6 +7,13 @@ using Microsoft.Xna.Framework;
 
 namespace Game
 {
+    /// <summary>
+    /// RAPPEL DE CE QU'IL FAUT FAIRE :
+    /// 1) Gérer le nombre de particules générées afin de gérer l'apparition des pièces.
+    /// 2) Recoder la classe "donjon" dans la .dll "SavingMap" et y ajouter une liste de "ArrayMap".
+    /// 3) Commencer le solo avec la classe donjon.
+    /// </summary>
+    
     class ParticleGenerator
     {
         // Fields.
@@ -14,15 +21,24 @@ namespace Game
         private float spawnWidth, density, timer, lifeTime;
         private List<Particle> particle = new List<Particle>();
         private Random rand1, rand2;
+        private float gravity;
+        private bool animated;
+        private Vector2 position;
+        private int nb_particles, nb;
 
         // Constructor.
 
-        public ParticleGenerator(Texture2D texture, float SpawnWidth, float Density, float lifeTime)
+        public ParticleGenerator(Texture2D texture, Vector2 position, float spawnWidth, float density, float lifeTime, float gravity, int nb_particles, bool animated)
         {
             this.texture = texture;
-            this.spawnWidth = SpawnWidth;
-            this.density = Density;
+            this.nb_particles = nb_particles;
+            this.position = position;
+            this.spawnWidth = spawnWidth;
+            this.density = density;
             this.lifeTime = lifeTime;
+            this.animated = animated;
+            this.gravity = gravity;
+            this.nb = 0;
             rand1 = new Random();
             rand2 = new Random();
         }
@@ -36,10 +52,7 @@ namespace Game
             double anything = rand1.Next();
             float randomX = (float)rand1.NextDouble();
 
-            for (int i = 0; i < 6; i++)
-			{
-			    particle.Add(new Particle(texture, new Vector2(randomX * this.spawnWidth, -100)));
-			}
+			particle.Add(new Particle(texture, new Vector2(position.X + (randomX * this.spawnWidth), position.Y), gravity, animated));
         }
 
         // Update & Draw.
@@ -48,15 +61,16 @@ namespace Game
         {
             timer += (float)gameTime.ElapsedGameTime.TotalSeconds;
 
-            while (timer >= 0)
+            while (timer >= 0 || (nb_particles != -1 && nb < nb_particles))
             {
                 timer -= 1f / density;
                 createParticule();
+                nb++;
             }
 
             for (int i = 0; i < particle.Count; i++)
             {
-                particle[i].Update();
+                particle[i].Update(gameTime);
 
                 if (timer > lifeTime)
                 {

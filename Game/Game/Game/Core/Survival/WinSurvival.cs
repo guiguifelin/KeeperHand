@@ -19,7 +19,7 @@ namespace Game
         public WinSurvival(Texture2D texture)
         {
             soundManager = new Sound();
-            menu = new Menu(texture, ref soundManager);
+            menu = new Menu(texture, soundManager);
             this.loaded = false;
         }
 
